@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.link {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node {
+  cursor: move;
+  /* fill: #585858;
+  stroke: #fbffbc; */
+  
+}
+
+.node.fixed {
+  fill: orange;
+}
+
+.submit {
+  position: absolute;
+  top: 735px;
+  left: 80px;
+
+}
+#searchContain {
+  position: absolute;
+  top: 580px;
+  left: 330px;
+  display: block;
+  /* justify-content: left; */
+}
+
+#playerSearch {
+  outline: 0;
+  border:none;
+  border-bottom: 1px solid #1890ff;
+  margin-bottom: 10px;
+}
+
+#PlayerList {
+  height:100px; 
+  width:90%;
+  overflow:hidden; 
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+}
+
+#PlayerList > .playerA {
+  /* margin-bottom: 10px; */
+  border: 0.5px solid grey;
+  background-color: 	#cdf4fb;
+  /* padding-top: 2px;
+  padding-bottom: 2px; */
+  height: 20px;
+  font-size: 15px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+#teamSearchContain {
+  position: absolute;
+  top: 400px;
+  left: 80px;
+  display: block;
+  /* justify-content: left; */
+}
+
+
+#teamSearchContain2 {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+  display: block;
+  /* justify-content: left; */
+}
+
+#teamSearch {
+  outline: 0;
+  border:none;
+  border-bottom: 1px solid #1890ff;
+  margin-bottom: 10px;
+}
+
+#teamList {
+  height:100px; 
+  width:100%;
+  overflow:hidden; 
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+}
+#teamList > .teamA {
+  /* margin-bottom: 10px; */
+  border: 0.5px solid grey;
+  background-color: 	#cdf4fb;
+  /* padding-top: 2px;
+  padding-bottom: 2px; */
+  height: 20px;
+  font-size: 15px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+
+#teamList2 {
+  height:100px; 
+  width:100%;
+  overflow:hidden; 
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+}
+#teamList2 > .teamA {
+  /* margin-bottom: 10px; */
+  border: 0.5px solid grey;
+  background-color: 	#cdf4fb;
+  /* padding-top: 2px;
+  padding-bottom: 2px; */
+  height: 20px;
+  font-size: 15px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+#nationSearchContain {
+  position: absolute;
+  top: 400px;
+  left: 330px;
+  display: block;
+  /* justify-content: left; */
+}
+
+#nationSearch {
+  outline: 0;
+  border:none;
+  border-bottom: 1px solid #1890ff;
+  margin-bottom: 10px;
+}
+
+#nationList {
+  height:100px; 
+  width:100%;
+  overflow:hidden; 
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+}
+#nationList > .nationA {
+  /* margin-bottom: 10px; */
+  border: 0.5px solid grey;
+  background-color: 	#cdf4fb;
+  /* padding-top: 2px;
+  padding-bottom: 2px; */
+  height: 20px;
+  font-size: 15px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+#posSearchContain {
+  position: absolute;
+  top: 580px;
+  left: 80px;
+  display: block;
+  /* justify-content: left; */
+}
+
+#posSearch {
+  outline: 0;
+  border:none;
+  border-bottom: 1px solid #1890ff;
+  margin-bottom: 10px;
+}
+
+#posList {
+  height:100px; 
+  width:100%;
+  overflow:hidden; 
+  overflow-y:scroll;
+  padding: 0;
+  margin: 0;
+}
+#posList > .posA {
+  /* margin-bottom: 10px; */
+  border: 0.5px solid grey;
+  background-color: 	#cdf4fb;
+  /* padding-top: 2px;
+  padding-bottom: 2px; */
+  height: 20px;
+  font-size: 15px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+
+</style>
+<body>
+  <script src="//d3js.org/d3.v5.min.js"></script>
+  <!-- <script src="//d3js.org/d3.v3.min.js"></script> -->
+
+  <title>Soccer Team Performance Predicter</title>
+  <h1 style = "position:absolute; left:700px; top:0px; ">Soccer Team Performance Predicter</h1>
+  <!-- <text id="selectedName"  style = "position:absolute; left:300px; top:250px; font-size: 20px;">Selected Player: </text>
+  <br/>
+  <text id="selectedPosition"  style = "position:absolute; left:300px; top:270px; font-size: 20px;">Player Position: </text> -->
+  <br/>
+  <button id="changeButton" style = "position:absolute; left:220px; font-size: 12px;" onclick="clickChangePlayer()" disabled >Change Player</button>
+    <!-- <button id="changeButton" onclick="" style="background-color:rgb(247, 0, 255)" >Change Player</button> -->
+
+  <br/>
+  <button id="changeTeamButton" style = "position:absolute; font-size: 12px;" onclick="loadTeam()" >Change Team</button>
+  <br/>
+  <button id="performanceButton" style = "position:absolute; left:1400px; top:150px; font-size: 14px;" onclick="calculateScore()">Get Performance!</button>
+  <br/>
+  <text id="perfScore"  style = "position:absolute; left:1400px; top:200px; font-size: 16px; font-weight: bold">Performance Scores</text>
+  <br>
+  <text id="perfScore_1"  style = "position:absolute; left:1400px; top:230px; font-size: 16px;">GraphConv: </text>
+  <br>
+  <text id="perfScore_2"  style = "position:absolute; left:1400px; top:260px; font-size: 16px;">ChebyShev: </text>
+  <br>
+  <text id="perfScore_3"  style = "position:absolute; left:1400px; top:290px; font-size: 16px;">TAGConv: </text>
+  <br>
+  <text id="perfScore_4"  style = "position:absolute; left:1400px; top:320px; font-size: 16px;">CustomNN: </text>
+
+  <!-- <script src = "https://d3js.org/d3-request.v3.min.js"></script> -->
+  <script>
+
+
+
+var width = 770,
+    height = 770;
+
+
+var globalId = 20
+
+
+var preTAlign = 30
+var fSize = 12
+var lAlign = 80
+var tAlign = 250
+var rAlign = 1400
+
+var selectedPlayer = null
+var selectedTeam = null
+
+d3.select("body").append("text")
+    .text("Change Team:").style("position", "absolute").style("left", lAlign + "px").style("top", preTAlign + 80 + "px").style("font-size", fSize  + 5 + "px").style("font-weight", "bold" )
+
+d3.select("body").append("text")
+    .text("Team Name:").style("position", "absolute").style("left", lAlign + "px").style("top", preTAlign + 130 + "px").style("font-size", fSize + 2 + "px")
+
+d3.select("button#changeTeamButton")
+    .style("left", 370 + "px").style("top", 280 + "px").style("font-size", "13px")
+
+
+
+var changeTeamDropdown  = d3.select("body").append("select")
+    .attr("id", "team2Dropdown").style("position", "absolute").style("left", lAlign + "px").style("top",preTAlign + 150 + "px").style("font-size", fSize + "px")
+
+
+
+d3.select("body").append("text")
+    .text("Get Performance Score:").style("position", "absolute").style("left", rAlign + "px").style("top", preTAlign + 80 + "px").style("font-size", fSize  + 5 + "px").style("font-weight", "bold" )
+
+d3.select("button#changeButton")
+    .style("top", 735 + "px")
+    .style("font-size", "13px")
+
+d3.select("body").append("text")
+    .text("Replace a Player:").style("position", "absolute").style("left", lAlign + "px").style("top", tAlign + 80 + "px").style("font-size", fSize  + 5 + "px").style("font-weight", "bold" )
+
+d3.select("body").append("text")
+    .text("Team Name:").style("position", "absolute").style("left", lAlign + "px").style("top", tAlign + 130 + "px").style("font-size", fSize + 2 + "px")
+
+// var dropDownTeam  = d3.select("body").append("select")
+//     .attr("id", "teamDropdown").style("position", "absolute").style("left", lAlign + "px").style("top",tAlign + 150 + "px").style("font-size", fSize + "px")
+
+
+d3.select("body").append("text")
+    .text("Nation:").style("position", "absolute").style("left",250 + lAlign + "px").style("top",tAlign + 130 + "px").style("font-size", fSize + 2 + "px")
+
+// var dropDownNation = d3.select("body").append("select")
+//     .attr("id", "nationDropdown").style("position", "absolute").style("left",250 +lAlign + "px").style("top",tAlign + 150 + "px").style("font-size", fSize + "px")
+
+d3.select("body").append("text")
+    .text("Position:").style("position", "absolute").style("left", lAlign + "px").style("top",tAlign + 310 + "px").style("font-size", fSize + 2+ "px")
+
+
+// var dropDownPos = d3.select("body").append("select")
+//     .attr("id", "posDropdown").style("position", "absolute").style("left",lAlign + "px").style("top",tAlign + 250 + "px").style("font-size", fSize + "px")
+
+
+    
+
+
+function showPlayer(contain, list) {
+    var textVal = document.getElementById(contain).value;
+    var list = document.getElementById(list).getElementsByTagName("a")
+    for (var i = 0; i < list.length; i++) {
+      listVal = list[i].getElementsByTagName("li")[0].textContent || list[i].getElementsByTagName("li")[0].innerText 
+      if (!listVal.toLowerCase().startsWith(textVal.toLowerCase().trim())) {
+        list[i].style.display = "none"
+      } else {
+        list[i].style.display = "block"
+      }
+    }
+}
+
+
+
+
+var teamSearchContain = d3.select("body").append("div").attr("id", "teamSearchContain")
+var teamSearch = teamSearchContain.append("input").attr("type", "text")
+                    .attr("placeholder", "Search Team..")
+                    .attr("id", "teamSearch").on("keyup", () => showPlayer("teamSearch", "teamList"))
+var teamList = teamSearchContain.append("ul").attr("id", "teamList")
+
+var nationSearchContain = d3.select("body").append("div").attr("id", "nationSearchContain")
+var nationSearch = nationSearchContain.append("input").attr("type", "text")
+                    .attr("placeholder", "Search Nation..")
+                    .attr("id", "nationSearch").on("keyup", () => showPlayer("nationSearch", "nationList"))
+var nationLists = nationSearchContain.append("ul").attr("id", "nationList")
+
+var posSearchContain = d3.select("body").append("div").attr("id", "posSearchContain")
+var posSearch = posSearchContain.append("input").attr("type", "text")
+                    .attr("placeholder", "Search Position..")
+                    .attr("id", "posSearch").on("keyup", () => showPlayer("posSearch", "posList"))
+var posLists = posSearchContain.append("ul").attr("id", "posList")
+
+// var mycolor = d3.scaleQuantile().domain([0,1]).range(['red','#e0d738','green']); 
+
+
+var teamSearchContain2 = d3.select("body").append("div").attr("id", "teamSearchContain2")
+var teamSearch2 = teamSearchContain2.append("input").attr("type", "text")
+                    .attr("placeholder", "Search Team..")
+                    .attr("id", "teamSearch2").on("keyup", () => showPlayer("teamSearch2", "teamList2"))
+var teamList2 = teamSearchContain2.append("ul").attr("id", "teamList2")
+
+
+var mycolor =d3.scaleQuantile().domain([0,1]).range(['red','#fbd300','#428928']); 
+
+
+// var dropDown  = d3.select("body").append("select")
+//     .attr("id", "gameDropdown")
+
+d3.select("body").
+style("background-color", "rgb(164 204 163)")
+
+var svg = d3.select("body").append("svg")
+    .attr("id", "main")
+    .attr("width", width)
+    .attr("height", height)
+    .style("position", "absolute").style("left","550px").style("top","100px")
+    .style("border", "3px solid black")
+    .style("background-color", "rgb(214 159 224)");
+
+
+    d3.select("body").append("text")
+    .attr("id", "selectedName")
+    .style("position", "absolute")
+    .style("left", "570px")
+    .style("top", "120px")
+    .style("font-size", "15px")
+    .text("Selected Player: ")
+
+
+    d3.select("body").append("text")
+    .attr("id", "selectedPosition")
+    .style("position", "absolute")
+    .style("left", "570px")
+    .style("top", "140px")
+    .style("font-size", "15px")
+    .text("Selected Position: ")
+   
+
+  //   <text id="selectedName"  style = "position:absolute; left:300px; top:250px; font-size: 20px;">Selected Player: </text>
+  // <br/>
+  // <text id="selectedPosition"  style = "position:absolute; left:300px; top:270px; font-size: 20px;">Player Position: </text>
+
+var link = svg.selectAll(".link"),
+    node = svg.selectAll(".node");
+
+
+
+
+// var soccerData = d3.json("initial.json")
+
+// api call to call data!
+var soccerData = d3.json("http://127.0.0.1:105//get-one-team-players/manchester-united")
+console.log(soccerData)
+
+
+var graphData = d3.json("graph.json")
+
+
+var allPlayers = d3.json("allplayers.json")
+
+var clubData = d3.dsv(",", "../clubs.csv", function (data) {
+    return {
+      teamName: data.name
+    }
+})
+
+var teamSelection = ""
+var nationSelection = ""
+var posSelection = ""
+
+var teamOption = ""
+var nationOption = ""
+var posOption = ""
+var playerOption = ""
+Promise.all([
+  graphData,
+  soccerData,
+  clubData,
+  allPlayers
+
+]).then(function(values) {
+
+  graph = values[0]
+  sData = values[1]
+  cData = values[2]
+  pData = values[3]
+  // pData = values[3]
+
+
+  playerDict = {}
+
+  for (i = 0; i < pData.length; i++) {
+    playerDict[pData[i].player_id] = pData[i]
+  }
+
+  console.log(playerDict)
+  console.log(graph)
+
+  const cList = cData.map(d => d.teamName).sort()
+  var cData = cList.map((d) => {
+    return {
+      "teamName" : d
+    }
+  })
+
+  teamList.selectAll("li")
+                  .data(cData)
+                  .enter()
+                  .append("a")
+                  .attr("href", "#")
+                  .attr("class", "teamA")
+                  .on("click", function(){
+                    if (teamOption !== "") {
+                      teamOption.style.background = "#cdf4fb"
+                    }
+                    teamSelection = this.getElementsByTagName("li")[0].textContent
+                    teamOption = this
+                    this.style.background = "#FAFAD2"
+                  })
+                  .append("li")
+                  .style("color", "black")
+                  .text(
+                  function(d){
+                    return d.teamName
+                  })
+
+  teamList2.selectAll("li")
+                  .data(cData)
+                  .enter()
+                  .append("a")
+                  .attr("href", "#")
+                  .attr("class", "teamA")
+                  .attr("value", function(d){
+                      return d["teamName"]
+                  })
+                  .on("click", function(){
+                    if (teamOption !== "") {
+                      teamOption.style.background = "#cdf4fb"
+                    }
+                    selectedTeam = this.getAttribute("value")
+                    teamSelection = this.getElementsByTagName("li")[0].textContent
+                    teamOption = this
+                    this.style.background = "#FAFAD2"
+                  })
+                  .append("li")
+                  .style("color", "black")
+                  .text(
+                  function(d){
+                    return d.teamName
+                  })
+
+  
+
+  console.log(cData)
+
+  const nationSet = new Set(pData.map(d => d.country_of_citizenship)
+                      .filter(function (el) 
+                      { return el !== '' && el !== null})
+                    )
+  const nationList = Array.from(nationSet).sort()
+
+  
+
+  nations = nationList.map(elem => {
+    return {
+      "nation": elem
+    }
+  })
+  nationLists.selectAll("li")
+                  .data(nations)
+                  .enter()
+                  .append("a")
+                  .attr("href", "#")
+                  .attr("class", "nationA")
+                  .on("click", function(){
+                    if (nationOption !== "") {
+                      nationOption.style.background = "#cdf4fb"
+                    }
+                    nationSelection = this.getElementsByTagName("li")[0].textContent
+                    nationOption = this
+                    this.style.background = "#FAFAD2"
+                  })
+                  .append("li")
+                  .style("color", "black")
+                  .text(
+                  function(d){
+                    return d.nation
+                  })
+                  
+
+  const posSet = new Set(pData.map(d => d.position)
+                      .filter(function (el) 
+                      { return el !== '' && el !== null && el !== '0'})
+                    )
+
+const posList = Array.from(posSet)
+
+posL = posList.map(elem => {
+  return {
+  "position": elem}
+})
+
+posLists.selectAll("li")
+                  .data(posL)
+                  .enter()
+                  .append("a")
+                  .attr("href", "#")
+                  .attr("class", "posA")
+                  .on("click", function(){
+                    if (posOption !== "") {
+                      posOption.style.background = "#cdf4fb"
+                    }
+                    posSelection = this.getElementsByTagName("li")[0].textContent
+                    posOption = this
+                    this.style.background = "#FAFAD2"
+                  })
+                  .append("li")
+                  .style("color", "black")
+                  .text(
+                  function(d){
+                    return d.position
+                  })
+
+///////////////////////////////
+
+
+  const idSet = new Set()
+
+  var unmatchedPlayers = []
+
+  posDict = {
+    "Attack" : {
+      "Left Winger" : 0,
+      "Centre-Forward": 1,
+      "Right Winger": 2
+    },
+    "Midfield" : {
+      "Central Midfield" : [3, 4, 5]
+    },
+    "Defender": {
+      "Left-Back" : 6,
+      "Centre-Back" : [7, 8],
+      "Right-Back": 9
+    },
+    "Goalkeeper": 10
+  }
+  var sub_pos_set = new Set()
+
+  sub_pos_set.add("Left Winger")
+  sub_pos_set.add("Right Winger")
+  sub_pos_set.add("Centre-Forward")
+  sub_pos_set.add("Central Midfield")
+  sub_pos_set.add("Left-Back")
+  sub_pos_set.add("Right-Back")
+  sub_pos_set.add("Centre-Back")
+  sub_pos_set.add("Goalkeeper")
+
+
+
+  genPosDict = {
+    "Attack" : [0, 1, 2],
+    "Midfield" : [3, 4, 5],
+    "Defender": [6, 7, 8, 9],
+    // "Goalkeeper": 10
+  }
+
+
+  sourceLinkIndices = {}
+  targetLinkIndices = {}
+
+  for(var i = 0; i < graph.links.length; i++) {
+    sourceNodeId = graph.links[i]["source"]
+    targetNodeId = graph.links[i]["target"]
+
+    var index = i
+    if (!sourceLinkIndices.hasOwnProperty(sourceNodeId)) {
+      sourceLinkIndices[sourceNodeId] = []
+    }
+    sourceLinkIndices[sourceNodeId].push(index)
+
+    if (!targetLinkIndices.hasOwnProperty(targetNodeId)) {
+      targetLinkIndices[targetNodeId] = []
+    }
+    targetLinkIndices[targetNodeId].push(index)
+  }
+
+
+
+  console.log(sData['players'])
+
+  for (player of sData['players']) {
+    
+    if (!player.hasOwnProperty('sub_position') || !sub_pos_set.has(player['sub_position'])) {
+      
+      unmatchedPlayers.push(player)
+      continue;
+    }
+    
+    
+    pos = player['position']
+    subpos = player['sub_position']
+    var id = ""
+    if (pos == 'Goalkeeper') {
+      id = posDict[pos]
+    } else
+      id = posDict[pos][subpos]
+
+    var matched = false
+
+    if (typeof(id) === 'object') {
+      
+      for(var pid of id) {
+        if (!(idSet.has(pid))) {
+          matched = true
+          graph["nodes"][pid]["text"] = player["pretty_name"]
+          graph["nodes"][pid]["player_id"] = player["player_id"]
+          idSet.add(pid)
+          break;
+        }
+      }
+    } else {
+      if (!(idSet.has(id))) {
+        matched = true
+        graph["nodes"][id]["text"] = player["pretty_name"]
+        graph["nodes"][id]["player_id"] = player["player_id"]
+        idSet.add(id)
+      }
+    }
+
+    if (matched == false) {
+      unmatchedPlayers.push(player)
+    }
+
+  }
+
+  console.log(unmatchedPlayers)
+  for (uplayer of unmatchedPlayers) {
+    pos = uplayer['position']
+    console.log(uplayer)
+    console.log(pos)
+    console.log(genPosDict)
+    for (pid of genPosDict[pos]) {
+      if (!(idSet.has(pid))) {
+          graph["nodes"][pid]["text"] = uplayer["pretty_name"]
+          graph["nodes"][pid]["player_id"] = uplayer["player_id"]
+          idSet.add(pid)
+          break;
+      }
+    }
+  }
+
+
+
+  // dropDown.selectAll("option")
+  //         .data(pData.slice(0, 10))
+  //         .enter()
+  //         .append("option")
+  //         .attr("value", function(d){
+  //             return JSON.stringify(d)
+  //         })
+  //         .append("text")
+  //         .style("fill", "black")
+  //         .text(function(d){
+  //             return d.pretty_name
+  //         })
+
+
+  var onSubmit = function () {
+    var team = teamSelection
+    if (team === "") {
+      team = "*"
+    }
+    var nation = nationSelection
+    if (nation === "") {
+      nation = "*"
+    }
+    var position = posSelection
+    if (position === "") {
+      position = "*"
+    }
+    if (team === "*" && position === "*" && nation === "*") {
+        d3.select("body").select("#searchContain").remove()
+        var searchContain = d3.select("body").append("div").attr("id", "searchContain")
+        var search = searchContain.append("input").attr("type", "text")
+                    .attr("placeholder", "Search Player..")
+                    .attr("id", "playerSearch")
+                    .on("keyup", () => showPlayer("playerSearch", "PlayerList"))
+        var playerList = searchContain.append("ul").attr("id", "PlayerList")
+        playerList.selectAll("li")
+                  .data(pData)
+                  .enter()
+                  .append("a")
+                  .attr("href", "#")
+                  .attr("class", "playerA")
+                  .attr("value", function(d){
+                      return JSON.stringify(d)
+                      console.log(playerOption)
+                  })
+                  .on("click", function(){
+                    if (playerOption !== "") {
+                      playerOption.style.background = "##cdf4fb"
+                    }
+                    playerOption = this
+                    console.log(this.getAttribute("value"))
+                    selectedPlayer = this.getAttribute("value")
+                    console.log(playerOption)
+                    this.style.background = "	#FAFAD2"
+                  })
+                  .append("li")
+                  .style("color", "black")
+                  .text(
+                  function(d){
+                    return d.pretty_name
+                  })
+    teamSelection = ""
+    nationSelection = ""
+    posSelection = ""
+    document.getElementById("teamSearch").value = ""
+    document.getElementById("nationSearch").value = ""
+    document.getElementById("posSearch").value = ""
+    if (teamOption !== "") {
+      teamOption.style.background = "#cdf4fb"
+    }
+    if (nationOption !== "") {
+      nationOption.style.background = "#cdf4fb"
+    }
+    if (posOption !== "") {
+      posOption.style.background = "#cdf4fb"
+    }
+    teamOption = ""
+    nationOption = ""
+    posOption = ""
+    showPlayer("teamSearch", "teamList")
+    showPlayer("nationSearch", "nationList")
+    showPlayer("posSearch", "posList")
+    } else {
+    const players = d3.json(`http://127.0.0.1:105/search-player/*/${team}/${nation}/${position}`)
+    console.log(`http://127.0.0.1:105/search-player/*/${team}/${nation}/${position}`)
+    players.then((val) => {
+      // console.log(val)
+      playerObjects = []
+      for (var i = 0; i < val.players.length; i++) {
+          playerObjects.push(playerDict[val.players[i].toString()])
+      }
+      console.log(playerObjects)
+      var dropDownPlayer = ""
+      console.log(playerObjects.length)
+      if (playerObjects.length > 0) {
+
+        // d3.select("body").select("#playerDropdown").remove()
+        // var dropDownPlayer = d3.select("body").append("select")
+        //     .attr("id", "playerDropdown")
+        //     .attr("size", 7)
+        //     .style("position", "absolute").style("left",295 + "px").style("top",tAlign + 220 + "px").style("font-size", fSize + "px")
+        //     .style("width", "200px")
+        // dropDownPlayer.selectAll("option")
+        //     .data(playerObjects)
+        //     .enter()
+        //     .append("option")
+        //     .attr("value", function(d){
+        //         return JSON.stringify(d)
+        //     })
+        //     .append("text")
+        //     .style("fill", "black")
+        //     .text(function(d){
+        //         return d.pretty_name
+        //     })
+
+        var changeButton = d3.select("body").select("button")
+        console.log(changeButton)
+
+
+        // changeButton.attr("hidden", null)
+
+        d3.select("body").select("#searchContain").remove()
+        var searchContain = d3.select("body").append("div").attr("id", "searchContain")
+        var search = searchContain.append("input").attr("type", "text")
+                    .attr("placeholder", "Search Player..")
+                    .attr("id", "playerSearch")
+                    .on("keyup", () => showPlayer("playerSearch", "PlayerList"))
+        var playerList = searchContain.append("ul").attr("id", "PlayerList")
+        playerList.selectAll("li")
+                  .data(playerObjects)
+                  .enter()
+                  .append("a")
+                  .attr("href", "#")
+                  .attr("class", "playerA")
+                  .attr("value", function(d){
+                      return JSON.stringify(d)
+                      console.log(playerOption)
+                  })
+                  .on("click", function(d){
+                    if (playerOption !== "") {
+                      playerOption.style.background = "#cdf4fb"
+                    }
+                    playerOption = this
+                    console.log(this.getAttribute("value"))
+                    selectedPlayer = this.getAttribute("value")
+                    this.style.background = "	#FAFAD2"
+                    console.log(playerOption)
+                  })
+                  .append("li")
+                  .style("color", "black")
+                  .text(
+                  function(d){
+                    return d.pretty_name
+                  })
+      } else {
+        
+          d3.select("body").select("#searchContain").remove()
+      }
+      teamSelection = ""
+      nationSelection = ""
+      posSelection = ""
+      document.getElementById("teamSearch").value = ""
+      document.getElementById("nationSearch").value = ""
+      document.getElementById("posSearch").value = ""
+      if (teamOption !== "") {
+        teamOption.style.background = "#cdf4fb"
+      }
+      if (nationOption !== "") {
+        nationOption.style.background = "#cdf4fb"
+      }
+      if (posOption !== "") {
+        posOption.style.background = "#cdf4fb"
+      }
+      teamOption = ""
+      nationOption = ""
+      posOption = ""
+      showPlayer("teamSearch", "teamList")
+      showPlayer("nationSearch", "nationList")
+      showPlayer("posSearch", "posList")
+    })
+    }
+  }
+
+  // var submit = d3.select("body").append("div")
+  //     .append("button")
+  //     .text("Submit")
+  //     .style("position", "absolute").style("left",lAlign + "px").style("top",tAlign + 485 + "px").style("font-size", fSize + "px")
+  //     .attr("class", "submit")
+  //     .on("click", onSubmit)
+
+  ////////////////////////////////////
+
+
+  // changeTeamDropdown.selectAll("option")
+  //         .data(cData)
+  //         .enter()
+  //         .append("option")
+  //         .attr("value", function(d){
+  //             return d.teamName
+  //         })
+  //         .append("text")
+  //         .style("fill", "black")
+  //         .text(function(d){
+  //             return d.teamName
+  //         })
+
+
+  // dropDownTeam.selectAll("option")
+  //         .data(cData)
+  //         .enter()
+  //         .append("option")
+  //         .attr("value", function(d){
+  //             return d.teamName
+  //         })
+  //         .append("text")
+  //         .style("fill", "black")
+  //         .text(function(d){
+  //             return d.teamName
+  //         })
+
+          
+  // dropDownNation.selectAll("option")
+  //         .data(nations)
+  //         .enter()
+  //         .append("option")
+  //         .attr("value", function(d){
+  //             return d.nation
+  //         })
+  //         .append("text")
+  //         .style("fill", "black")
+  //         .text(function(d){
+  //             return d.nation
+  //         })
+
+  // dropDownPos.selectAll("option")
+  //         .data(posL)
+  //         .enter()
+  //         .append("option")
+  //         .attr("value", function(d){
+  //             return d.position
+  //         })
+  //         .append("text")
+  //         .style("fill", "black")
+  //         .text(function(d){
+  //             return d.position
+  //         })
+          
+
+
+
+
+  //////////////////////
+  
+
+  var submit = d3.select("body").append("div")
+              .append("button")
+              .text("Apply Filters")
+              .attr("class", "submit")
+              .on("click", onSubmit)
+
+///////////////////////////////////////
+
+
+  const promises = []
+
+
+  graph.links.forEach(
+      function(obj, ind) {
+        source_ind = graph.links[ind]["source"];
+        target_ind = graph.links[ind]["target"];
+        source_pid = graph["nodes"][source_ind]["player_id"];
+        target_pid = graph["nodes"][target_ind]["player_id"];
+        graph.links[ind]["source_pid"] = source_pid;
+        graph.links[ind]["target_pid"] = target_pid;
+
+
+        promises.push(d3.json('http://127.0.0.1:105//get-edge-weight/' + source_pid + '/' + target_pid))
+
+      }
+  )
+
+
+
+  Promise.all(
+    promises
+  ).then(function(values) {
+
+    console.log(values[0])
+
+    for (var ind = 0; ind < graph.links.length; ind++) {
+          console.log(values[ind])
+          edge_weight = values[ind]['edge_weight']
+          console.log(ind)
+          console.log(graph.links[ind])
+          graph.links[ind]["weight"] = edge_weight.toFixed(2);
+    }
+
+
+
+
+    
+
+        
+  var force = d3.forceSimulation(graph.nodes)
+      // .nodes(d3.values(nodes))
+      .force("charge", d3.forceManyBody().strength(-700))
+      .force("center", d3.forceCenter(width / 2, height / 2 -5))
+    //   .force("x", d3.forceX(width / 2).strength(.05))
+      .force("y", d3.forceY(height / 2).strength(.05))
+    
+      .force("link", d3.forceLink(graph.links).distance(200))
+    // .force("y", d3.forceY(height / 2).strength(.05))
+      .alphaTarget(-0)
+      .on("tick", tick)
+      
+
+
+  console.log(graph.links)
+  link = link.data(graph.links)
+    .enter().append("g")
+    .attr("id", function(d){
+        console.log(d.source.id)
+        console.log(d.weight)
+         return 'edge_' + d.source.id + '_' + d.target.id
+      })
+    
+  lines = link.append("line")
+      .attr("class", "link")
+      .style("stroke", function(d) {
+        console.log(mycolor(d.weight))
+        return mycolor(d.weight)
+      })
+      .style("stroke-width", "6");
+
+  edge_weights = link.append("text")
+  .attr("id", function(d){
+         return 'weight_' + d.source.id + '_' + d.target.id 
+      })
+    // .style("fill", "#fd35e6")
+    .text(function(d) {
+          console.log(d)
+    	    return d.weight;
+    })
+    .style("stroke", "black")
+    // .style("font-weight", 70)
+    .style("stroke-width", "1.5px");
+
+
+
+  node = node.data(graph.nodes)
+    .enter().append("g")
+    .attr("id", function(d){
+         return 'node_' + d.id
+      })
+    .attr("class", "node")
+    // .on("dblclick", dblclick)
+    .on("click", click)
+    // .call(drag);
+
+  circles = node.append("circle")
+  .attr("r", 28)
+  .style("stroke-width", "2.5px")
+  .style("fill", "#efefef")
+  .style("stroke", "#000")
+  // fill: #585858;
+  // stroke: #fbffbc;
+
+
+  node.append("text")
+    .attr("id", function(d){
+         return 'label_' + d.id
+      })
+    .text(function(d) {
+    	    return d.text;
+    })
+     .style("stroke", "black")
+    .style("font-family", "Saira")
+    .style("font-size", "14px")
+    .attr("font-weight", 1);
+
+  node.append("text")
+    // .attr("id", function(d){
+    //      return 'label_' + d.id
+    //   })
+    // .style("font-weight", 700)
+    .style("position", "absolute")
+    .attr("y", 20)
+    .text(function(d) {
+    	    return d.abbrev;
+    })
+    .style("stroke", "#550ca6")
+    .style("font-family", "Saira")
+    .style("font-size", "14px")
+    .attr("font-weight", 1);
+
+
+  })
+
+
+})
+
+
+function click(d) {
+
+    if (globalId < 11) {
+      prevNode = d3.select("body").select("g#node_" + globalId)
+      console.log(prevNode)
+      prevNode.select("circle").style("fill", "#efefef");
+    }
+
+
+    targetIndex = d.id
+    globalId = targetIndex;
+
+
+    currCol = d3.select(this).select("circle").style("fill")
+    console.log(currCol)
+
+    // sel = d3.select("body").select("select");
+    var dropDown = d3.select("select#gameDropdown")
+
+
+    var changeButton = d3.select("body").select("button")
+    console.log(changeButton)
+    // changeButton.style("background-color", 'red')
+    changeButton.attr("disabled", null)
+
+    var selName = d3.select("body").select("text#selectedName")
+    selName.text('Selected Player: ' + graph["nodes"][globalId]["text"])
+
+    var selName = d3.select("body").select("text#selectedPosition")
+    selName.text('Selected Player: ' + graph["nodes"][globalId]["position"])
+
+
+    if (currCol == '#ffb5ba')
+      d3.select(this).select("circle").style("fill", "#efefef");
+    else
+      d3.select(this).select("circle").style("fill", "#ffb5ba");
+}
+
+
+function tick() {
+
+
+  node = d3.select("svg#main").selectAll(".node")
+
+  lines.attr("x1", function(d) { 
+    return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+
+  edge_weights.attr("transform", function(d) {
+          xPos = (d.source.x + d.target.x)/2
+          yPos = (d.source.y + d.target.y)/2
+          return "translate(" + xPos + "," + yPos + ")"; 
+      });
+
+  node.attr("transform", function(d) {
+          return "translate(" + d.x + "," + d.y + ")"; 
+      });
+}
+
+function dblclick(d) {
+  d3.select(this).classed("fixed", d.fixed = false);
+}
+
+function clickOut(d) {
+
+}
+
+function clickChangePlayer() {
+
+    var perfText_1 = d3.select("body").select("text#perfScore_1")
+    perfText_1.text('GraphConv: ')
+    var perfText_2 = d3.select("body").select("text#perfScore_2")
+    perfText_2.text('ChebyShev: ')
+    var perfText_3 = d3.select("body").select("text#perfScore_3")
+    perfText_3.text('TAGConv: ')
+    var perfText_4 = d3.select("body").select("text#perfScore_4")
+    perfText_4.text('CustomNN: ')
+
+
+    
+    // var dropDown = d3.select("select#playerDropdown")
+
+    var dropDown = selectedPlayer
+    console.log(selectedPlayer)
+    // console.log(dropDown.node())
+    // console.log(dropDown.value)
+    player = JSON.parse(dropDown)
+    // player = JSON.parse(dropDown.node().value)
+    console.log(player)
+    
+    pid = Number(player["player_id"])
+    old_id = graph["nodes"][globalId]["player_id"]
+
+    d3.json('http://127.0.0.1:105//replace-player/' + old_id + '/' + pid, {method: "post"}).then(function(val) {
+      console.log(val)
+    })
+
+    graph["nodes"][globalId]["text"] = player["pretty_name"]
+    
+    sourceLinks = sourceLinkIndices[globalId]
+    targetLinks = targetLinkIndices[globalId]
+    console.log(globalId)
+    console.log(sourceLinks)
+    console.log(sourceLinkIndices)
+    console.log(targetLinkIndices)
+
+    promisesEdges = []
+
+    
+    count = 0;
+    if (sourceLinks != undefined) {
+    sourceLinks.forEach( function(linkIndex, ind) {
+      graph["links"][linkIndex]["source_pid"] = pid
+      s_id = graph["links"][linkIndex]["source_pid"]
+      t_id = graph["links"][linkIndex]["target_pid"]
+      promisesEdges.push(d3.json('http://127.0.0.1:105//get-edge-weight/' + s_id + '/' + t_id))
+    })
+    }
+
+    if (targetLinks != undefined) {
+    targetLinks.forEach( function(linkIndex, ind) {
+      graph["links"][linkIndex]["target_pid"] = pid
+      s_id = graph["links"][linkIndex]["source_pid"]
+      t_id = graph["links"][linkIndex]["target_pid"]
+      promisesEdges.push(d3.json('http://127.0.0.1:105//get-edge-weight/' + s_id + '/' + t_id))
+    })
+    }
+
+    console.log(promisesEdges)
+    Promise.all(
+      promisesEdges
+    ).then(function(values) {
+      count = 0;
+      console.log(values)
+
+      if (sourceLinks != undefined) {
+      for(var i = 0; i < sourceLinks.length; i++) {
+        var linkIndex = sourceLinks[i]
+        edge_weight = values[count]["edge_weight"]
+        graph["links"][linkIndex]["weight"] = edge_weight
+        source = graph["links"][linkIndex]["source"].id
+        target = graph["links"][linkIndex]["target"].id
+        edge = d3.select("body").select("g#edge_" + source + '_' + target)
+        edge.select("text").text(edge_weight.toFixed(2))
+        edge.select("line").style("stroke", mycolor(edge_weight))
+        count++
+      }
+      }
+
+
+      if (targetLinks != undefined) {
+      for(var i = 0; i < targetLinks.length; i++) {
+        var linkIndex = targetLinks[i]
+        edge_weight = values[count]["edge_weight"]
+        graph["links"][linkIndex]["weight"] = edge_weight
+        source = graph["links"][linkIndex]["source"].id
+        target = graph["links"][linkIndex]["target"].id
+        edge = d3.select("body").select("g#edge_" + source + '_' + target)
+        edge.select("text").text(edge_weight.toFixed(2))
+        edge.select("line").style("stroke", mycolor(edge_weight))
+        count++
+      }
+      }
+
+      var selName = d3.select("body").select("text#selectedName")
+      selName.text('Selected Player: ' + player["pretty_name"])
+
+
+      graph["nodes"][globalId]["player_id"] = pid
+      currNode = d3.select("body").select("g#node_" + globalId).select("text")
+      currNode.text(graph["nodes"][globalId]["text"])
+
+    })
+
+    
+
+
+    
+
+    console.log(graph)
+
+    // source_ind = graph.links[i]["source"];
+    // target_ind = graph.links[i]["target"]
+    // graph.links[i]["source_pid"] = graph["nodes"][source_ind]["player_id"];
+    // graph.links[i]["target_pid"] = graph["nodes"][target_ind]["player_id"];
+}
+
+
+function calculateScore() {
+  d3.json('http://127.0.0.1:105//calculate-score').then((value) => {
+    score = value['score']
+    var perfText_1 = d3.select("body").select("text#perfScore_1")
+    perfText_1.text('GraphConv: ' + score['GraphConv'])
+    var perfText_2 = d3.select("body").select("text#perfScore_2")
+    perfText_2.text('ChebyShev: ' + score['ChebyShev'])
+    var perfText_4 = d3.select("body").select("text#perfScore_4")
+    perfText_4.text('CustomNN: ' + score['CustomNN'])
+    var perfText_3 = d3.select("body").select("text#perfScore_3")
+    perfText_3.text('TAGConv: ' + score['TAGConv'])
+  });
+}
+
+
+
+function dragstart(d) {
+  d3.select(this).classed("fixed", d.fixed = true);
+}
+
+
+
+function loadTeam() {
+
+  // var dropDown = d3.select("select#team2Dropdown")
+  // // team = JSON.parse(dropDown.node().value)
+  // team = dropDown.node().value
+
+   var perfText_1 = d3.select("body").select("text#perfScore_1")
+    perfText_1.text('GraphConv: ')
+    var perfText_2 = d3.select("body").select("text#perfScore_2")
+    perfText_2.text('ChebyShev: ')
+    var perfText_3 = d3.select("body").select("text#perfScore_3")
+    perfText_3.text('TAGConv: ')
+    var perfText_4 = d3.select("body").select("text#perfScore_4")
+    perfText_4.text('CustomNN: ')
+
+  team = selectedTeam
+
+
+var graphData = d3.json("graph.json")
+var soccerData = d3.json("http://127.0.0.1:105//get-one-team-players/" + team)
+console.log(soccerData)
+
+Promise.all(
+  [graphData,
+  soccerData]
+).then(function(values) {
+  
+  graph = values[0]
+  sData = values[1]
+
+
+  const idSet = new Set()
+
+  var unmatchedPlayers = []
+
+  posDict = {
+    "Attack" : {
+      "Left Winger" : 0,
+      "Centre-Forward": 1,
+      "Right Winger": 2
+    },
+    "Midfield" : {
+      "Central Midfield" : [3, 4, 5]
+    },
+    "Defender": {
+      "Left-Back" : 6,
+      "Centre-Back" : [7, 8],
+      "Right-Back": 9
+    },
+    "Goalkeeper": 10
+  }
+  var sub_pos_set = new Set()
+
+  sub_pos_set.add("Left Winger")
+  sub_pos_set.add("Right Winger")
+  sub_pos_set.add("Centre-Forward")
+  sub_pos_set.add("Central Midfield")
+  sub_pos_set.add("Left-Back")
+  sub_pos_set.add("Right-Back")
+  sub_pos_set.add("Centre-Back")
+  sub_pos_set.add("Goalkeeper")
+
+
+
+  genPosDict = {
+    "Attack" : [0, 1, 2],
+    "Midfield" : [3, 4, 5],
+    "Defender": [6, 7, 8, 9],
+    // "Goalkeeper": 10
+  }
+
+
+  sourceLinkIndices = {}
+  targetLinkIndices = {}
+
+  for(var i = 0; i < graph.links.length; i++) {
+    sourceNodeId = graph.links[i]["source"]
+    targetNodeId = graph.links[i]["target"]
+
+    var index = i
+    if (!sourceLinkIndices.hasOwnProperty(sourceNodeId)) {
+      sourceLinkIndices[sourceNodeId] = []
+    }
+    sourceLinkIndices[sourceNodeId].push(index)
+
+    if (!targetLinkIndices.hasOwnProperty(targetNodeId)) {
+      targetLinkIndices[targetNodeId] = []
+    }
+    targetLinkIndices[targetNodeId].push(index)
+  }
+
+
+
+  console.log(sData['players'])
+
+  for (player of sData['players']) {
+    
+    if (!player.hasOwnProperty('sub_position') || !sub_pos_set.has(player['sub_position'])) {
+      
+      unmatchedPlayers.push(player)
+      continue;
+    }
+    
+    
+    pos = player['position']
+    subpos = player['sub_position']
+    var id = ""
+    if (pos == 'Goalkeeper') {
+      id = posDict[pos]
+    } else
+      id = posDict[pos][subpos]
+
+    var matched = false
+
+    if (typeof(id) === 'object') {
+      
+      for(var pid of id) {
+        if (!(idSet.has(pid))) {
+          matched = true
+          graph["nodes"][pid]["text"] = player["pretty_name"]
+          graph["nodes"][pid]["player_id"] = player["player_id"]
+          idSet.add(pid)
+          break;
+        }
+      }
+    } else {
+      if (!(idSet.has(id))) {
+        matched = true
+        graph["nodes"][id]["text"] = player["pretty_name"]
+        graph["nodes"][id]["player_id"] = player["player_id"]
+        idSet.add(id)
+      }
+    }
+
+    if (matched == false) {
+      unmatchedPlayers.push(player)
+    }
+
+  }
+
+  console.log(unmatchedPlayers)
+  for (uplayer of unmatchedPlayers) {
+    pos = uplayer['position']
+    console.log(uplayer)
+    console.log(pos)
+    console.log(genPosDict)
+    for (pid of genPosDict[pos]) {
+      if (!(idSet.has(pid))) {
+          graph["nodes"][pid]["text"] = uplayer["pretty_name"]
+          graph["nodes"][pid]["player_id"] = uplayer["player_id"]
+          idSet.add(pid)
+          break;
+      }
+    }
+  }
+
+    console.log(graph)
+
+    const promises = []
+
+
+    graph.links.forEach(
+        function(obj, ind) {
+          source_ind = graph.links[ind]["source"];
+          target_ind = graph.links[ind]["target"];
+          source_pid = graph["nodes"][source_ind]["player_id"];
+          target_pid = graph["nodes"][target_ind]["player_id"];
+          graph.links[ind]["source_pid"] = source_pid;
+          graph.links[ind]["target_pid"] = target_pid;
+
+
+          promises.push(d3.json('http://127.0.0.1:105//get-edge-weight/' + source_pid + '/' + target_pid))
+
+        }
+    )
+
+
+
+    Promise.all(
+      promises
+    ).then(function(values) {
+
+      console.log(values[0])
+
+      for (var ind = 0; ind < graph.links.length; ind++) {
+            console.log(values[ind])
+            edge_weight = values[ind]['edge_weight']
+            console.log(ind)
+            console.log(graph.links[ind])
+            graph.links[ind]["weight"] = edge_weight.toFixed(2);
+      }
+
+
+    var svg = d3.select("svg#main")
+    // svg.style("fill", "blue")
+
+    // svg 
+
+    
+
+    for (link of graph.links) {
+      gLink = svg.select('g#edge_' + link.source + '_' + link.target)
+      console.log(gLink)
+      gLink.select("line").style("stroke", mycolor(link.weight))
+      gLink.select("text").text(link.weight)
+    }
+
+    for (node of graph.nodes) {
+      console.log(node)
+      gNode =  svg.select("g#node_" + node.id)
+      gNode.select("text#label_" + node.id).text(node.text)
+    }
+
+    var link = svg.selectAll(".link"),
+    node = svg.selectAll(".node");
+
+    d3.forceSimulation(graph.nodes)
+  // .nodes(d3.values(nodes))
+  .force("charge", d3.forceManyBody().strength(-700))
+  .force("center", d3.forceCenter(width / 2, height / 2 -5))
+//   .force("x", d3.forceX(width / 2).strength(.05))
+  .force("y", d3.forceY(height / 2).strength(.05))
+
+  .force("link", d3.forceLink(graph.links).distance(200))
+// .force("y", d3.forceY(height / 2).strength(.05))
+  .alphaTarget(-0)
+  .on("tick", tick)
+
+  var perfText = d3.select("body").select("text#perfScore")
+  perfText.text('Performance Score: ')
+
+  var selName = d3.select("body").select("text#selectedName")
+  selName.text('Selected Player: ' + graph.nodes[globalId]["text"])
+  
+
+
+  })
+    
+  
+} )
+
+
+}
+
+</script>

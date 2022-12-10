@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {"id":0, "x": 200, "y": 200, "player_id": 0, "text":"Pick a Player", "position":"Left Winger", "abbrev": "LW" },
+    {"id":1, "x": 300, "y": 200, "player_id": 0, "text":"Pick a Player", "position":"Centre-Forward", "abbrev": "CF"},
+    {"id":2, "x": 400, "y": 200, "player_id": 0, "text":"Pick a Player", "position":"Right Winger", "abbrev": "RW"},
+    {"id":3, "x": 200, "y": 300, "player_id": 0, "text":"Pick a Player", "position":"Left Midfield", "abbrev": "LM"},
+    {"id":4, "x": 300, "y": 300, "player_id": 0, "text":"Pick a Player", "position":"Central Midfield", "abbrev": "CM"},
+    {"id":5, "x": 400, "y": 300, "player_id": 0, "text":"Pick a Player", "position":"Right Midfield", "abbrev": "RM"},
+    {"id":6, "x": 150, "y": 400, "player_id": 0, "text":"Pick a Player", "position":"Left-Back", "abbrev": "LB"},
+    {"id":7, "x": 250, "y": 400, "player_id": 0, "text":"Pick a Player", "position":"Centre-Back", "abbrev": "CB"},
+    {"id":8, "x": 350, "y": 400, "player_id": 0, "text":"Pick a Player", "position":"Centre-Back", "abbrev": "CB"},
+    {"id":9, "x": 450, "y": 400, "player_id": 0, "text":"Pick a Player", "position":"Right-Back", "abbrev": "RB"},
+    {"id":10, "x": 300, "y": 500, "player_id": 0, "text":"Pick a Player", "position":"Goalkeeper", "abbrev": "GK"}
+
+  ],
+  "links": [
+    {"source":  0, "target":  1, "weight":  0},
+    {"source":  1, "target":  2, "weight":  0},
+    {"source":  0, "target":  3, "weight":  0},
+    {"source":  1, "target":  4, "weight":  0},
+    {"source":  1, "target":  3, "weight":  0},
+    {"source":  1, "target":  5, "weight":  0},
+    {"source":  2, "target":  5, "weight":  0},
+    {"source":  3, "target":  4, "weight":  0},
+    {"source":  4, "target":  5, "weight":  0},
+    {"source":  3, "target":  6, "weight":  0},
+    {"source":  4, "target":  7, "weight":  0},
+    {"source":  4, "target":  8, "weight":  0},
+    {"source":  4, "target":  6, "weight":  0},
+    {"source":  4, "target":  9, "weight":  0},
+    {"source":  5, "target":  9, "weight":  0},
+    {"source":  6, "target":  7, "weight":  0},
+    {"source":  7, "target":  8, "weight":  0},
+    {"source":  8, "target":  9, "weight":  0},
+    {"source":  7, "target":  10, "weight":  0},
+    {"source":  8, "target":  10, "weight":  0}
+  ]
+}

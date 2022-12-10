@@ -1,0 +1,1302 @@
+Date,Home,Away,Result,Goal Difference
+2017-09-23,West Ham,Tottenham,Home Loss,-1.0
+2017-09-23,Southampton,Manchester Utd,Home Loss,-1.0
+2017-09-23,Stoke City,Chelsea,Home Loss,-4.0
+2017-09-23,Manchester City,Crystal Palace,Home Win,5.0
+2017-09-23,Burnley,Huddersfield,Draw,0.0
+2017-09-23,Swansea City,Watford,Home Loss,-1.0
+2017-09-23,Everton,Bournemouth,Home Win,1.0
+2017-09-23,Leicester City,Liverpool,Home Loss,-1.0
+2017-09-24,Brighton,Newcastle Utd,Home Win,1.0
+2017-09-25,Arsenal,West Brom,Home Win,2.0
+2017-09-30,Huddersfield,Tottenham,Home Loss,-4.0
+2017-09-30,Stoke City,Southampton,Home Win,1.0
+2017-09-30,West Ham,Swansea City,Home Win,1.0
+2017-09-30,Manchester Utd,Crystal Palace,Home Win,4.0
+2017-09-30,Bournemouth,Leicester City,Draw,0.0
+2017-09-30,West Brom,Watford,Draw,0.0
+2017-09-30,Chelsea,Manchester City,Home Loss,-1.0
+2017-10-01,Arsenal,Brighton,Home Win,2.0
+2017-10-01,Everton,Burnley,Home Loss,-1.0
+2017-10-01,Newcastle Utd,Liverpool,Draw,0.0
+2017-10-14,Liverpool,Manchester Utd,Draw,0.0
+2017-10-14,Tottenham,Bournemouth,Home Win,1.0
+2017-10-14,Burnley,West Ham,Draw,0.0
+2017-10-14,Crystal Palace,Chelsea,Draw,0.0
+2017-10-14,Swansea City,Huddersfield,Home Win,2.0
+2017-10-14,Manchester City,Stoke City,Home Win,6.0
+2017-10-14,Watford,Arsenal,Home Win,1.0
+2017-10-15,Brighton,Everton,Draw,0.0
+2017-10-15,Southampton,Newcastle Utd,Draw,0.0
+2017-10-16,Leicester City,West Brom,Draw,0.0
+2017-10-20,West Ham,Brighton,Home Loss,-3.0
+2017-10-21,Chelsea,Watford,Home Win,2.0
+2017-10-21,Manchester City,Burnley,Home Win,3.0
+2017-10-21,Huddersfield,Manchester Utd,Home Win,1.0
+2017-10-21,Swansea City,Leicester City,Draw,0.0
+2017-10-21,Stoke City,Bournemouth,Home Loss,-1.0
+2017-10-21,Newcastle Utd,Crystal Palace,Home Win,1.0
+2017-10-21,Southampton,West Brom,Home Win,1.0
+2017-10-22,Everton,Arsenal,Home Loss,-3.0
+2017-10-22,Tottenham,Liverpool,Home Win,3.0
+2017-10-28,Manchester Utd,Tottenham,Home Win,1.0
+2017-10-28,Arsenal,Swansea City,Home Win,1.0
+2017-10-28,Crystal Palace,West Ham,Draw,0.0
+2017-10-28,Watford,Stoke City,Home Loss,-1.0
+2017-10-28,Liverpool,Huddersfield,Home Win,3.0
+2017-10-28,West Brom,Manchester City,Home Loss,-1.0
+2017-10-28,Bournemouth,Chelsea,Home Loss,-1.0
+2017-10-29,Brighton,Southampton,Draw,0.0
+2017-10-29,Leicester City,Everton,Home Win,2.0
+2017-10-30,Burnley,Newcastle Utd,Home Win,1.0
+2017-11-04,Stoke City,Leicester City,Draw,0.0
+2017-11-04,Southampton,Burnley,Home Loss,-1.0
+2017-11-04,Swansea City,Brighton,Home Loss,-1.0
+2017-11-04,Huddersfield,West Brom,Home Win,1.0
+2017-11-04,Newcastle Utd,Bournemouth,Home Loss,-1.0
+2017-11-04,West Ham,Liverpool,Home Loss,-3.0
+2017-11-05,Tottenham,Crystal Palace,Home Win,1.0
+2017-11-05,Manchester City,Arsenal,Home Win,2.0
+2017-11-05,Everton,Watford,Home Win,1.0
+2017-11-05,Chelsea,Manchester Utd,Home Win,1.0
+2017-11-18,Arsenal,Tottenham,Home Win,2.0
+2017-11-18,West Brom,Chelsea,Home Loss,-4.0
+2017-11-18,Bournemouth,Huddersfield,Home Win,4.0
+2017-11-18,Liverpool,Southampton,Home Win,3.0
+2017-11-18,Burnley,Swansea City,Home Win,2.0
+2017-11-18,Crystal Palace,Everton,Draw,0.0
+2017-11-18,Leicester City,Manchester City,Home Loss,-2.0
+2017-11-18,Manchester Utd,Newcastle Utd,Home Win,3.0
+2017-11-19,Watford,West Ham,Home Win,2.0
+2017-11-20,Brighton,Stoke City,Draw,0.0
+2017-11-24,West Ham,Leicester City,Draw,0.0
+2017-11-25,Tottenham,West Brom,Draw,0.0
+2017-11-25,Manchester Utd,Brighton,Draw,0.0
+2017-11-25,Swansea City,Bournemouth,Draw,0.0
+2017-11-25,Crystal Palace,Stoke City,Home Win,1.0
+2017-11-25,Newcastle Utd,Watford,Home Loss,-2.0
+2017-11-25,Liverpool,Chelsea,Draw,0.0
+2017-11-26,Southampton,Everton,Home Win,3.0
+2017-11-26,Burnley,Arsenal,Home Loss,-1.0
+2017-11-26,Huddersfield,Manchester City,Home Loss,-2.0
+2017-11-28,Brighton,Crystal Palace,Draw,0.0
+2017-11-28,Leicester City,Tottenham,Home Win,1.0
+2017-11-28,Watford,Manchester Utd,Home Loss,-2.0
+2017-11-28,West Brom,Newcastle Utd,Home Win,1.0
+2017-11-29,Chelsea,Swansea City,Home Win,1.0
+2017-11-29,Bournemouth,Burnley,Home Loss,-1.0
+2017-11-29,Arsenal,Huddersfield,Home Win,5.0
+2017-11-29,Stoke City,Liverpool,Home Loss,-3.0
+2017-11-29,Everton,West Ham,Home Win,4.0
+2017-11-29,Manchester City,Southampton,Home Win,1.0
+2017-12-02,Chelsea,Newcastle Utd,Home Win,2.0
+2017-12-02,Watford,Tottenham,Draw,0.0
+2017-12-02,West Brom,Crystal Palace,Draw,0.0
+2017-12-02,Stoke City,Swansea City,Home Win,1.0
+2017-12-02,Brighton,Liverpool,Home Loss,-3.0
+2017-12-02,Everton,Huddersfield,Home Win,2.0
+2017-12-02,Leicester City,Burnley,Home Win,1.0
+2017-12-02,Arsenal,Manchester Utd,Home Loss,-2.0
+2017-12-03,Bournemouth,Southampton,Draw,0.0
+2017-12-03,Manchester City,West Ham,Home Win,1.0
+2017-12-09,West Ham,Chelsea,Home Win,1.0
+2017-12-09,Huddersfield,Brighton,Home Win,2.0
+2017-12-09,Crystal Palace,Bournemouth,Draw,0.0
+2017-12-09,Tottenham,Stoke City,Home Win,3.0
+2017-12-09,Burnley,Watford,Home Win,1.0
+2017-12-09,Swansea City,West Brom,Home Win,1.0
+2017-12-09,Newcastle Utd,Leicester City,Draw,0.0
+2017-12-10,Southampton,Arsenal,Draw,0.0
+2017-12-10,Liverpool,Everton,Draw,0.0
+2017-12-10,Manchester Utd,Manchester City,Home Loss,-1.0
+2017-12-12,Burnley,Stoke City,Home Win,1.0
+2017-12-12,Crystal Palace,Watford,Home Win,1.0
+2017-12-12,Huddersfield,Chelsea,Home Loss,-2.0
+2017-12-13,Newcastle Utd,Everton,Home Loss,-1.0
+2017-12-13,Southampton,Leicester City,Home Loss,-3.0
+2017-12-13,Swansea City,Manchester City,Home Loss,-4.0
+2017-12-13,Liverpool,West Brom,Draw,0.0
+2017-12-13,West Ham,Arsenal,Draw,0.0
+2017-12-13,Tottenham,Brighton,Home Win,2.0
+2017-12-13,Manchester Utd,Bournemouth,Home Win,1.0
+2017-12-16,Leicester City,Crystal Palace,Home Loss,-3.0
+2017-12-16,Watford,Huddersfield,Home Loss,-3.0
+2017-12-16,Arsenal,Newcastle Utd,Home Win,1.0
+2017-12-16,Brighton,Burnley,Draw,0.0
+2017-12-16,Chelsea,Southampton,Home Win,1.0
+2017-12-16,Stoke City,West Ham,Home Loss,-3.0
+2017-12-16,Manchester City,Tottenham,Home Win,3.0
+2017-12-17,West Brom,Manchester Utd,Home Loss,-1.0
+2017-12-17,Bournemouth,Liverpool,Home Loss,-4.0
+2017-12-18,Everton,Swansea City,Home Win,2.0
+2017-12-22,Arsenal,Liverpool,Draw,0.0
+2017-12-23,Everton,Chelsea,Draw,0.0
+2017-12-23,Stoke City,West Brom,Home Win,2.0
+2017-12-23,Brighton,Watford,Home Win,1.0
+2017-12-23,Swansea City,Crystal Palace,Draw,0.0
+2017-12-23,Southampton,Huddersfield,Draw,0.0
+2017-12-23,Manchester City,Bournemouth,Home Win,4.0
+2017-12-23,West Ham,Newcastle Utd,Home Loss,-1.0
+2017-12-23,Burnley,Tottenham,Home Loss,-3.0
+2017-12-23,Leicester City,Manchester Utd,Draw,0.0
+2017-12-26,Tottenham,Southampton,Home Win,3.0
+2017-12-26,Bournemouth,West Ham,Draw,0.0
+2017-12-26,Watford,Leicester City,Draw,0.0
+2017-12-26,West Brom,Everton,Draw,0.0
+2017-12-26,Manchester Utd,Burnley,Draw,0.0
+2017-12-26,Huddersfield,Stoke City,Draw,0.0
+2017-12-26,Chelsea,Brighton,Home Win,2.0
+2017-12-26,Liverpool,Swansea City,Home Win,5.0
+2017-12-27,Newcastle Utd,Manchester City,Home Loss,-1.0
+2017-12-28,Crystal Palace,Arsenal,Home Loss,-1.0
+2017-12-30,Huddersfield,Burnley,Draw,0.0
+2017-12-30,Chelsea,Stoke City,Home Win,5.0
+2017-12-30,Bournemouth,Everton,Home Win,1.0
+2017-12-30,Liverpool,Leicester City,Home Win,1.0
+2017-12-30,Watford,Swansea City,Home Loss,-1.0
+2017-12-30,Newcastle Utd,Brighton,Draw,0.0
+2017-12-30,Manchester Utd,Southampton,Draw,0.0
+2017-12-31,Crystal Palace,Manchester City,Draw,0.0
+2017-12-31,West Brom,Arsenal,Home Win,1.0
+2018-01-01,Brighton,Bournemouth,Draw,0.0
+2018-01-01,Leicester City,Huddersfield,Home Win,3.0
+2018-01-01,Burnley,Liverpool,Home Loss,-1.0
+2018-01-01,Stoke City,Newcastle Utd,Home Loss,-1.0
+2018-01-01,Everton,Manchester Utd,Home Loss,-2.0
+2018-01-02,West Ham,West Brom,Home Win,1.0
+2018-01-02,Swansea City,Tottenham,Home Loss,-2.0
+2018-01-02,Southampton,Crystal Palace,Home Loss,-1.0
+2018-01-02,Manchester City,Watford,Home Win,1.0
+2018-01-03,Arsenal,Chelsea,Draw,0.0
+2018-01-04,Tottenham,West Ham,Draw,0.0
+2018-01-13,Newcastle Utd,Swansea City,Draw,0.0
+2018-01-13,Crystal Palace,Burnley,Home Win,1.0
+2018-01-13,Chelsea,Leicester City,Draw,0.0
+2018-01-13,Huddersfield,West Ham,Home Loss,-3.0
+2018-01-13,West Brom,Brighton,Home Win,2.0
+2018-01-13,Watford,Southampton,Draw,0.0
+2018-01-13,Tottenham,Everton,Home Win,4.0
+2018-01-14,Bournemouth,Arsenal,Home Win,1.0
+2018-01-14,Liverpool,Manchester City,Home Win,1.0
+2018-01-15,Manchester Utd,Stoke City,Home Win,3.0
+2018-01-20,Brighton,Chelsea,Home Loss,-4.0
+2018-01-20,Everton,West Brom,Draw,0.0
+2018-01-20,Leicester City,Watford,Home Win,2.0
+2018-01-20,Stoke City,Huddersfield,Home Win,2.0
+2018-01-20,Arsenal,Crystal Palace,Home Win,3.0
+2018-01-20,West Ham,Bournemouth,Draw,0.0
+2018-01-20,Burnley,Manchester Utd,Home Loss,-1.0
+2018-01-20,Manchester City,Newcastle Utd,Home Win,2.0
+2018-01-21,Southampton,Tottenham,Home Loss,-1.0
+2018-01-22,Swansea City,Liverpool,Home Win,1.0
+2018-01-30,West Ham,Crystal Palace,Draw,0.0
+2018-01-30,Swansea City,Arsenal,Home Win,2.0
+2018-01-30,Huddersfield,Liverpool,Home Loss,-3.0
+2018-01-31,Southampton,Brighton,Draw,0.0
+2018-01-31,Chelsea,Bournemouth,Home Loss,-3.0
+2018-01-31,Everton,Leicester City,Home Win,1.0
+2018-01-31,Newcastle Utd,Burnley,Home Win,1.0
+2018-01-31,Stoke City,Watford,Draw,0.0
+2018-01-31,Manchester City,West Brom,Home Win,3.0
+2018-01-31,Tottenham,Manchester Utd,Home Win,1.0
+2018-02-03,Burnley,Manchester City,Draw,0.0
+2018-02-03,West Brom,Southampton,Home Loss,-1.0
+2018-02-03,Bournemouth,Stoke City,Home Win,1.0
+2018-02-03,Manchester Utd,Huddersfield,Home Win,2.0
+2018-02-03,Brighton,West Ham,Home Win,2.0
+2018-02-03,Leicester City,Swansea City,Draw,0.0
+2018-02-03,Arsenal,Everton,Home Win,4.0
+2018-02-04,Crystal Palace,Newcastle Utd,Draw,0.0
+2018-02-04,Liverpool,Tottenham,Draw,0.0
+2018-02-05,Watford,Chelsea,Home Win,3.0
+2018-02-10,Tottenham,Arsenal,Home Win,1.0
+2018-02-10,Everton,Crystal Palace,Home Win,2.0
+2018-02-10,Swansea City,Burnley,Home Win,1.0
+2018-02-10,Stoke City,Brighton,Draw,0.0
+2018-02-10,West Ham,Watford,Home Win,2.0
+2018-02-10,Manchester City,Leicester City,Home Win,4.0
+2018-02-11,Huddersfield,Bournemouth,Home Win,2.0
+2018-02-11,Newcastle Utd,Manchester Utd,Home Win,1.0
+2018-02-11,Southampton,Liverpool,Home Loss,-2.0
+2018-02-12,Chelsea,West Brom,Home Win,3.0
+2018-02-24,Leicester City,Stoke City,Home Loss,-1.0
+2018-02-24,West Brom,Huddersfield,Home Loss,-1.0
+2018-02-24,Bournemouth,Newcastle Utd,Draw,0.0
+2018-02-24,Liverpool,West Ham,Home Win,3.0
+2018-02-24,Burnley,Southampton,Draw,0.0
+2018-02-24,Brighton,Swansea City,Home Win,4.0
+2018-02-24,Watford,Everton,Home Win,1.0
+2018-02-25,Crystal Palace,Tottenham,Home Loss,-1.0
+2018-02-25,Manchester Utd,Chelsea,Home Win,1.0
+2018-03-01,Arsenal,Manchester City,Home Loss,-3.0
+2018-03-03,Burnley,Everton,Home Win,1.0
+2018-03-03,Watford,West Brom,Home Win,1.0
+2018-03-03,Swansea City,West Ham,Home Win,3.0
+2018-03-03,Leicester City,Bournemouth,Draw,0.0
+2018-03-03,Southampton,Stoke City,Draw,0.0
+2018-03-03,Tottenham,Huddersfield,Home Win,2.0
+2018-03-03,Liverpool,Newcastle Utd,Home Win,2.0
+2018-03-04,Brighton,Arsenal,Home Win,1.0
+2018-03-04,Manchester City,Chelsea,Home Win,1.0
+2018-03-05,Crystal Palace,Manchester Utd,Home Loss,-1.0
+2018-03-10,Manchester Utd,Liverpool,Home Win,2.0
+2018-03-10,West Ham,Burnley,Home Loss,-3.0
+2018-03-10,Newcastle Utd,Southampton,Home Win,3.0
+2018-03-10,West Brom,Leicester City,Home Loss,-3.0
+2018-03-10,Everton,Brighton,Home Win,1.0
+2018-03-10,Huddersfield,Swansea City,Draw,0.0
+2018-03-10,Chelsea,Crystal Palace,Draw,0.0
+2018-03-11,Arsenal,Watford,Home Win,3.0
+2018-03-11,Bournemouth,Tottenham,Home Loss,-3.0
+2018-03-12,Stoke City,Manchester City,Home Loss,-2.0
+2018-03-17,Stoke City,Everton,Home Loss,-1.0
+2018-03-17,Bournemouth,West Brom,Home Win,1.0
+2018-03-17,Huddersfield,Crystal Palace,Home Loss,-2.0
+2018-03-17,Liverpool,Watford,Home Win,5.0
+2018-03-31,Crystal Palace,Liverpool,Home Loss,-1.0
+2018-03-31,Manchester Utd,Swansea City,Home Win,2.0
+2018-03-31,Brighton,Leicester City,Home Loss,-2.0
+2018-03-31,West Brom,Burnley,Home Loss,-1.0
+2018-03-31,West Ham,Southampton,Home Win,3.0
+2018-03-31,Newcastle Utd,Huddersfield,Home Win,1.0
+2018-03-31,Watford,Bournemouth,Draw,0.0
+2018-03-31,Everton,Manchester City,Home Loss,-2.0
+2018-04-01,Arsenal,Stoke City,Home Win,3.0
+2018-04-01,Chelsea,Tottenham,Home Loss,-2.0
+2018-04-07,Everton,Liverpool,Draw,0.0
+2018-04-07,Stoke City,Tottenham,Home Loss,-1.0
+2018-04-07,Leicester City,Newcastle Utd,Home Loss,-1.0
+2018-04-07,Watford,Burnley,Home Loss,-1.0
+2018-04-07,Brighton,Huddersfield,Home Loss,-1.0
+2018-04-07,Bournemouth,Crystal Palace,Draw,0.0
+2018-04-07,West Brom,Swansea City,Draw,0.0
+2018-04-07,Manchester City,Manchester Utd,Home Loss,-1.0
+2018-04-08,Arsenal,Southampton,Home Win,1.0
+2018-04-08,Chelsea,West Ham,Draw,0.0
+2018-04-14,Southampton,Chelsea,Home Loss,-1.0
+2018-04-14,Crystal Palace,Brighton,Home Win,1.0
+2018-04-14,Huddersfield,Watford,Home Win,1.0
+2018-04-14,Burnley,Leicester City,Home Win,1.0
+2018-04-14,Swansea City,Everton,Home Win,1.0
+2018-04-14,Liverpool,Bournemouth,Home Win,3.0
+2018-04-14,Tottenham,Manchester City,Home Loss,-2.0
+2018-04-15,Newcastle Utd,Arsenal,Home Win,1.0
+2018-04-15,Manchester Utd,West Brom,Home Loss,-1.0
+2018-04-16,West Ham,Stoke City,Draw,0.0
+2018-04-17,Brighton,Tottenham,Draw,0.0
+2018-04-18,Bournemouth,Manchester Utd,Home Loss,-2.0
+2018-04-19,Burnley,Chelsea,Draw,0.0
+2018-04-19,Leicester City,Southampton,Draw,0.0
+2018-04-21,West Brom,Liverpool,Draw,0.0
+2018-04-21,Watford,Crystal Palace,Draw,0.0
+2018-04-22,Arsenal,West Ham,Home Win,3.0
+2018-04-22,Stoke City,Burnley,Draw,0.0
+2018-04-22,Manchester City,Swansea City,Home Win,5.0
+2018-04-23,Everton,Newcastle Utd,Home Win,1.0
+2018-04-28,Liverpool,Stoke City,Draw,0.0
+2018-04-28,Newcastle Utd,West Brom,Home Loss,-1.0
+2018-04-28,Southampton,Bournemouth,Home Win,1.0
+2018-04-28,Huddersfield,Everton,Home Loss,-2.0
+2018-04-28,Crystal Palace,Leicester City,Home Win,5.0
+2018-04-28,Burnley,Brighton,Draw,0.0
+2018-04-28,Swansea City,Chelsea,Home Loss,-1.0
+2018-04-29,West Ham,Manchester City,Home Loss,-2.0
+2018-04-29,Manchester Utd,Arsenal,Home Win,1.0
+2018-04-30,Tottenham,Watford,Home Win,2.0
+2018-05-04,Brighton,Manchester Utd,Home Win,1.0
+2018-05-05,Stoke City,Crystal Palace,Home Loss,-1.0
+2018-05-05,Leicester City,West Ham,Home Loss,-2.0
+2018-05-05,West Brom,Tottenham,Home Win,1.0
+2018-05-05,Bournemouth,Swansea City,Home Win,1.0
+2018-05-05,Watford,Newcastle Utd,Home Win,1.0
+2018-05-05,Everton,Southampton,Draw,0.0
+2018-05-06,Manchester City,Huddersfield,Draw,0.0
+2018-05-06,Chelsea,Liverpool,Home Win,1.0
+2018-05-06,Arsenal,Burnley,Home Win,5.0
+2018-05-08,Swansea City,Southampton,Home Loss,-1.0
+2018-05-09,Leicester City,Arsenal,Home Win,2.0
+2018-05-09,Chelsea,Huddersfield,Draw,0.0
+2018-05-09,Tottenham,Newcastle Utd,Home Win,1.0
+2018-05-09,Manchester City,Brighton,Home Win,2.0
+2018-05-10,West Ham,Manchester Utd,Draw,0.0
+2018-05-13,Swansea City,Stoke City,Home Loss,-1.0
+2018-05-13,Liverpool,Brighton,Home Win,4.0
+2018-05-13,Burnley,Bournemouth,Home Loss,-1.0
+2018-05-13,Crystal Palace,West Brom,Home Win,2.0
+2018-05-13,West Ham,Everton,Home Win,2.0
+2018-05-13,Huddersfield,Arsenal,Home Loss,-1.0
+2018-05-13,Newcastle Utd,Chelsea,Home Win,3.0
+2018-05-13,Manchester Utd,Watford,Home Win,1.0
+2018-05-13,Southampton,Manchester City,Home Loss,-1.0
+2018-05-13,Tottenham,Leicester City,Draw,0.0
+2018-09-22,Fulham,Watford,Draw,0.0
+2018-09-22,Crystal Palace,Newcastle Utd,Draw,0.0
+2018-09-22,Cardiff City,Manchester City,Home Loss,-5.0
+2018-09-22,Liverpool,Southampton,Home Win,2.0
+2018-09-22,Burnley,Bournemouth,Home Win,4.0
+2018-09-22,Manchester Utd,Wolves,Draw,0.0
+2018-09-22,Leicester City,Huddersfield,Home Win,2.0
+2018-09-22,Brighton,Tottenham,Home Loss,-1.0
+2018-09-23,West Ham,Chelsea,Draw,0.0
+2018-09-23,Arsenal,Everton,Home Win,2.0
+2018-09-29,West Ham,Manchester Utd,Home Win,1.0
+2018-09-29,Newcastle Utd,Leicester City,Home Loss,-2.0
+2018-09-29,Everton,Fulham,Home Win,3.0
+2018-09-29,Wolves,Southampton,Home Win,2.0
+2018-09-29,Arsenal,Watford,Home Win,1.0
+2018-09-29,Manchester City,Brighton,Home Win,2.0
+2018-09-29,Huddersfield,Tottenham,Home Loss,-2.0
+2018-09-29,Chelsea,Liverpool,Draw,0.0
+2018-09-30,Cardiff City,Burnley,Home Loss,-1.0
+2018-10-01,Bournemouth,Crystal Palace,Home Win,1.0
+2018-10-05,Brighton,West Ham,Home Win,1.0
+2018-10-06,Leicester City,Everton,Home Loss,-1.0
+2018-10-06,Burnley,Huddersfield,Draw,0.0
+2018-10-06,Tottenham,Cardiff City,Home Win,1.0
+2018-10-06,Watford,Bournemouth,Home Loss,-4.0
+2018-10-06,Crystal Palace,Wolves,Home Loss,-1.0
+2018-10-06,Manchester Utd,Newcastle Utd,Home Win,1.0
+2018-10-07,Fulham,Arsenal,Home Loss,-4.0
+2018-10-07,Southampton,Chelsea,Home Loss,-3.0
+2018-10-07,Liverpool,Manchester City,Draw,0.0
+2018-10-20,Chelsea,Manchester Utd,Draw,0.0
+2018-10-20,Bournemouth,Southampton,Draw,0.0
+2018-10-20,Manchester City,Burnley,Home Win,5.0
+2018-10-20,West Ham,Tottenham,Home Loss,-1.0
+2018-10-20,Newcastle Utd,Brighton,Home Loss,-1.0
+2018-10-20,Wolves,Watford,Home Loss,-2.0
+2018-10-20,Cardiff City,Fulham,Home Win,2.0
+2018-10-20,Huddersfield,Liverpool,Home Loss,-1.0
+2018-10-21,Everton,Crystal Palace,Home Win,2.0
+2018-10-22,Arsenal,Leicester City,Home Win,3.0
+2018-10-27,Brighton,Wolves,Home Win,1.0
+2018-10-27,Southampton,Newcastle Utd,Draw,0.0
+2018-10-27,Fulham,Bournemouth,Home Loss,-3.0
+2018-10-27,Liverpool,Cardiff City,Home Win,3.0
+2018-10-27,Watford,Huddersfield,Home Win,3.0
+2018-10-27,Leicester City,West Ham,Draw,0.0
+2018-10-28,Burnley,Chelsea,Home Loss,-4.0
+2018-10-28,Crystal Palace,Arsenal,Draw,0.0
+2018-10-28,Manchester Utd,Everton,Home Win,1.0
+2018-10-29,Tottenham,Manchester City,Home Loss,-1.0
+2018-11-03,Bournemouth,Manchester Utd,Home Loss,-1.0
+2018-11-03,Cardiff City,Leicester City,Home Loss,-1.0
+2018-11-03,Everton,Brighton,Home Win,2.0
+2018-11-03,Newcastle Utd,Watford,Home Win,1.0
+2018-11-03,West Ham,Burnley,Home Win,2.0
+2018-11-03,Arsenal,Liverpool,Draw,0.0
+2018-11-03,Wolves,Tottenham,Home Loss,-1.0
+2018-11-04,Manchester City,Southampton,Home Win,4.0
+2018-11-04,Chelsea,Crystal Palace,Home Win,2.0
+2018-11-05,Huddersfield,Fulham,Draw,0.0
+2018-11-10,Cardiff City,Brighton,Home Win,1.0
+2018-11-10,Newcastle Utd,Bournemouth,Home Win,1.0
+2018-11-10,Huddersfield,West Ham,Draw,0.0
+2018-11-10,Leicester City,Burnley,Draw,0.0
+2018-11-10,Southampton,Watford,Draw,0.0
+2018-11-10,Crystal Palace,Tottenham,Home Loss,-1.0
+2018-11-11,Liverpool,Fulham,Home Win,2.0
+2018-11-11,Chelsea,Everton,Draw,0.0
+2018-11-11,Arsenal,Wolves,Draw,0.0
+2018-11-11,Manchester City,Manchester Utd,Home Win,2.0
+2018-11-24,Manchester Utd,Crystal Palace,Draw,0.0
+2018-11-24,Fulham,Southampton,Home Win,1.0
+2018-11-24,West Ham,Manchester City,Home Loss,-4.0
+2018-11-24,Brighton,Leicester City,Draw,0.0
+2018-11-24,Everton,Cardiff City,Home Win,1.0
+2018-11-24,Watford,Liverpool,Home Loss,-3.0
+2018-11-24,Tottenham,Chelsea,Home Win,2.0
+2018-11-25,Bournemouth,Arsenal,Draw,0.0
+2018-11-25,Wolves,Huddersfield,Home Loss,-2.0
+2018-11-26,Burnley,Newcastle Utd,Draw,0.0
+2018-11-30,Cardiff City,Wolves,Home Win,1.0
+2018-12-01,Newcastle Utd,West Ham,Home Loss,-3.0
+2018-12-01,Crystal Palace,Burnley,Home Win,2.0
+2018-12-01,Huddersfield,Brighton,Home Loss,-1.0
+2018-12-01,Leicester City,Watford,Home Win,2.0
+2018-12-01,Manchester City,Bournemouth,Home Win,2.0
+2018-12-01,Southampton,Manchester Utd,Draw,0.0
+2018-12-02,Chelsea,Fulham,Home Win,2.0
+2018-12-02,Arsenal,Tottenham,Home Win,2.0
+2018-12-02,Liverpool,Everton,Home Win,1.0
+2018-12-04,West Ham,Cardiff City,Home Win,2.0
+2018-12-04,Brighton,Crystal Palace,Home Win,2.0
+2018-12-04,Bournemouth,Huddersfield,Home Win,1.0
+2018-12-04,Watford,Manchester City,Home Loss,-1.0
+2018-12-05,Wolves,Chelsea,Home Win,1.0
+2018-12-05,Fulham,Leicester City,Draw,0.0
+2018-12-05,Burnley,Liverpool,Home Loss,-2.0
+2018-12-05,Everton,Newcastle Utd,Draw,0.0
+2018-12-05,Manchester Utd,Arsenal,Home Win,1.0
+2018-12-05,Tottenham,Southampton,Home Win,2.0
+2018-12-08,Bournemouth,Liverpool,Home Loss,-3.0
+2018-12-08,West Ham,Crystal Palace,Home Win,1.0
+2018-12-08,Manchester Utd,Fulham,Home Win,3.0
+2018-12-08,Burnley,Brighton,Home Win,1.0
+2018-12-08,Cardiff City,Southampton,Home Win,1.0
+2018-12-08,Arsenal,Huddersfield,Home Win,1.0
+2018-12-08,Chelsea,Manchester City,Home Win,2.0
+2018-12-08,Leicester City,Tottenham,Home Loss,-2.0
+2018-12-09,Newcastle Utd,Wolves,Home Loss,-1.0
+2018-12-10,Everton,Watford,Home Win,1.0
+2018-12-15,Manchester City,Everton,Home Win,2.0
+2018-12-15,Watford,Cardiff City,Home Win,1.0
+2018-12-15,Tottenham,Burnley,Home Win,1.0
+2018-12-15,Huddersfield,Newcastle Utd,Home Loss,-1.0
+2018-12-15,Crystal Palace,Leicester City,Home Win,1.0
+2018-12-15,Wolves,Bournemouth,Home Win,2.0
+2018-12-15,Fulham,West Ham,Home Loss,-2.0
+2018-12-16,Southampton,Arsenal,Home Win,1.0
+2018-12-16,Brighton,Chelsea,Home Loss,-1.0
+2018-12-16,Liverpool,Manchester Utd,Home Win,2.0
+2018-12-21,Wolves,Liverpool,Home Loss,-2.0
+2018-12-22,Arsenal,Burnley,Home Win,2.0
+2018-12-22,Bournemouth,Brighton,Home Win,2.0
+2018-12-22,Manchester City,Crystal Palace,Home Loss,-1.0
+2018-12-22,West Ham,Watford,Home Loss,-2.0
+2018-12-22,Huddersfield,Southampton,Home Loss,-2.0
+2018-12-22,Chelsea,Leicester City,Home Loss,-1.0
+2018-12-22,Newcastle Utd,Fulham,Draw,0.0
+2018-12-22,Cardiff City,Manchester Utd,Home Loss,-4.0
+2018-12-23,Everton,Tottenham,Home Loss,-4.0
+2018-12-26,Fulham,Wolves,Draw,0.0
+2018-12-26,Burnley,Everton,Home Loss,-4.0
+2018-12-26,Manchester Utd,Huddersfield,Home Win,2.0
+2018-12-26,Liverpool,Newcastle Utd,Home Win,4.0
+2018-12-26,Leicester City,Manchester City,Home Win,1.0
+2018-12-26,Tottenham,Bournemouth,Home Win,5.0
+2018-12-26,Crystal Palace,Cardiff City,Draw,0.0
+2018-12-26,Brighton,Arsenal,Draw,0.0
+2018-12-26,Watford,Chelsea,Home Loss,-1.0
+2018-12-27,Southampton,West Ham,Home Loss,-1.0
+2018-12-29,Watford,Newcastle Utd,Draw,0.0
+2018-12-29,Fulham,Huddersfield,Home Win,1.0
+2018-12-29,Brighton,Everton,Home Win,1.0
+2018-12-29,Leicester City,Cardiff City,Home Loss,-1.0
+2018-12-29,Tottenham,Wolves,Home Loss,-2.0
+2018-12-29,Liverpool,Arsenal,Home Win,4.0
+2018-12-30,Crystal Palace,Chelsea,Home Loss,-1.0
+2018-12-30,Southampton,Manchester City,Home Loss,-1.0
+2018-12-30,Burnley,West Ham,Home Win,2.0
+2018-12-30,Manchester Utd,Bournemouth,Home Win,3.0
+2019-01-01,Everton,Leicester City,Home Loss,-1.0
+2019-01-01,Arsenal,Fulham,Home Win,3.0
+2019-01-01,Cardiff City,Tottenham,Home Loss,-3.0
+2019-01-02,Wolves,Crystal Palace,Home Loss,-2.0
+2019-01-02,West Ham,Brighton,Draw,0.0
+2019-01-02,Bournemouth,Watford,Draw,0.0
+2019-01-02,Chelsea,Southampton,Draw,0.0
+2019-01-02,Huddersfield,Burnley,Home Loss,-1.0
+2019-01-02,Newcastle Utd,Manchester Utd,Home Loss,-2.0
+2019-01-03,Manchester City,Liverpool,Home Win,1.0
+2019-01-12,West Ham,Arsenal,Home Win,1.0
+2019-01-12,Burnley,Fulham,Draw,0.0
+2019-01-12,Brighton,Liverpool,Home Loss,-1.0
+2019-01-12,Crystal Palace,Watford,Home Loss,-2.0
+2019-01-12,Cardiff City,Huddersfield,Draw,0.0
+2019-01-12,Leicester City,Southampton,Home Loss,-1.0
+2019-01-12,Chelsea,Newcastle Utd,Home Win,1.0
+2019-01-13,Everton,Bournemouth,Home Win,2.0
+2019-01-13,Tottenham,Manchester Utd,Home Loss,-1.0
+2019-01-14,Manchester City,Wolves,Home Win,2.0
+2019-01-19,Wolves,Leicester City,Home Win,2.0
+2019-01-19,Bournemouth,West Ham,Home Win,2.0
+2019-01-19,Newcastle Utd,Cardiff City,Home Win,3.0
+2019-01-19,Manchester Utd,Brighton,Home Win,1.0
+2019-01-19,Southampton,Everton,Draw,0.0
+2019-01-19,Liverpool,Crystal Palace,Home Win,1.0
+2019-01-19,Watford,Burnley,Draw,0.0
+2019-01-19,Arsenal,Chelsea,Home Win,2.0
+2019-01-20,Huddersfield,Manchester City,Home Loss,-3.0
+2019-01-20,Fulham,Tottenham,Home Loss,-2.0
+2019-01-29,Fulham,Brighton,Home Win,2.0
+2019-01-29,Huddersfield,Everton,Home Loss,-1.0
+2019-01-29,Wolves,West Ham,Home Win,3.0
+2019-01-29,Arsenal,Cardiff City,Home Win,1.0
+2019-01-29,Newcastle Utd,Manchester City,Home Win,1.0
+2019-01-29,Manchester Utd,Burnley,Draw,0.0
+2019-01-30,Bournemouth,Chelsea,Home Win,4.0
+2019-01-30,Southampton,Crystal Palace,Draw,0.0
+2019-01-30,Tottenham,Watford,Home Win,1.0
+2019-01-30,Liverpool,Leicester City,Draw,0.0
+2019-02-02,Tottenham,Newcastle Utd,Home Win,1.0
+2019-02-02,Brighton,Watford,Draw,0.0
+2019-02-02,Chelsea,Huddersfield,Home Win,5.0
+2019-02-02,Everton,Wolves,Home Loss,-2.0
+2019-02-02,Burnley,Southampton,Draw,0.0
+2019-02-02,Crystal Palace,Fulham,Home Win,2.0
+2019-02-02,Cardiff City,Bournemouth,Home Win,2.0
+2019-02-03,Leicester City,Manchester Utd,Home Loss,-1.0
+2019-02-03,Manchester City,Arsenal,Home Win,2.0
+2019-02-04,West Ham,Liverpool,Draw,0.0
+2019-02-06,Everton,Manchester City,Home Loss,-2.0
+2019-02-09,Fulham,Manchester Utd,Home Loss,-3.0
+2019-02-09,Crystal Palace,West Ham,Draw,0.0
+2019-02-09,Liverpool,Bournemouth,Home Win,3.0
+2019-02-09,Southampton,Cardiff City,Home Loss,-1.0
+2019-02-09,Watford,Everton,Home Win,1.0
+2019-02-09,Huddersfield,Arsenal,Home Loss,-1.0
+2019-02-09,Brighton,Burnley,Home Loss,-2.0
+2019-02-10,Tottenham,Leicester City,Home Win,2.0
+2019-02-10,Manchester City,Chelsea,Home Win,6.0
+2019-02-11,Wolves,Newcastle Utd,Draw,0.0
+2019-02-22,West Ham,Fulham,Home Win,2.0
+2019-02-22,Cardiff City,Watford,Home Loss,-4.0
+2019-02-23,Burnley,Tottenham,Home Win,1.0
+2019-02-23,Bournemouth,Wolves,Draw,0.0
+2019-02-23,Newcastle Utd,Huddersfield,Home Win,2.0
+2019-02-23,Leicester City,Crystal Palace,Home Loss,-3.0
+2019-02-24,Arsenal,Southampton,Home Win,2.0
+2019-02-24,Manchester Utd,Liverpool,Draw,0.0
+2019-02-26,Cardiff City,Everton,Home Loss,-3.0
+2019-02-26,Huddersfield,Wolves,Home Win,1.0
+2019-02-26,Leicester City,Brighton,Home Win,1.0
+2019-02-26,Newcastle Utd,Burnley,Home Win,2.0
+2019-02-27,Arsenal,Bournemouth,Home Win,4.0
+2019-02-27,Southampton,Fulham,Home Win,2.0
+2019-02-27,Crystal Palace,Manchester Utd,Home Loss,-2.0
+2019-02-27,Chelsea,Tottenham,Home Win,1.0
+2019-02-27,Liverpool,Watford,Home Win,5.0
+2019-02-27,Manchester City,West Ham,Home Win,1.0
+2019-03-02,Tottenham,Arsenal,Draw,0.0
+2019-03-02,Manchester Utd,Southampton,Home Win,1.0
+2019-03-02,Wolves,Cardiff City,Home Win,2.0
+2019-03-02,Bournemouth,Manchester City,Home Loss,-1.0
+2019-03-02,Brighton,Huddersfield,Home Win,1.0
+2019-03-02,Burnley,Crystal Palace,Home Loss,-1.0
+2019-03-02,West Ham,Newcastle Utd,Home Win,2.0
+2019-03-03,Watford,Leicester City,Home Win,1.0
+2019-03-03,Fulham,Chelsea,Home Loss,-1.0
+2019-03-03,Everton,Liverpool,Draw,0.0
+2019-03-09,Crystal Palace,Brighton,Home Loss,-1.0
+2019-03-09,Newcastle Utd,Everton,Home Win,1.0
+2019-03-09,Cardiff City,West Ham,Home Win,2.0
+2019-03-09,Huddersfield,Bournemouth,Home Loss,-2.0
+2019-03-09,Leicester City,Fulham,Home Win,2.0
+2019-03-09,Southampton,Tottenham,Home Win,1.0
+2019-03-09,Manchester City,Watford,Home Win,2.0
+2019-03-10,Liverpool,Burnley,Home Win,2.0
+2019-03-10,Chelsea,Wolves,Draw,0.0
+2019-03-10,Arsenal,Manchester Utd,Home Win,2.0
+2019-03-16,West Ham,Huddersfield,Home Win,1.0
+2019-03-16,Burnley,Leicester City,Home Loss,-1.0
+2019-03-16,Bournemouth,Newcastle Utd,Draw,0.0
+2019-03-17,Fulham,Liverpool,Home Loss,-1.0
+2019-03-17,Everton,Chelsea,Home Win,2.0
+2019-03-30,Fulham,Manchester City,Home Loss,-2.0
+2019-03-30,Burnley,Wolves,Home Win,1.0
+2019-03-30,Crystal Palace,Huddersfield,Home Win,2.0
+2019-03-30,Leicester City,Bournemouth,Home Win,2.0
+2019-03-30,Brighton,Southampton,Home Loss,-1.0
+2019-03-30,Manchester Utd,Watford,Home Win,1.0
+2019-03-30,West Ham,Everton,Home Loss,-2.0
+2019-03-31,Cardiff City,Chelsea,Home Loss,-1.0
+2019-03-31,Liverpool,Tottenham,Draw,0.0
+2019-04-01,Arsenal,Newcastle Utd,Home Win,2.0
+2019-04-02,Wolves,Manchester Utd,Draw,0.0
+2019-04-02,Watford,Fulham,Home Win,3.0
+2019-04-03,Chelsea,Brighton,Home Win,3.0
+2019-04-03,Tottenham,Crystal Palace,Home Win,2.0
+2019-04-03,Manchester City,Cardiff City,Home Win,2.0
+2019-04-05,Southampton,Liverpool,Home Loss,-2.0
+2019-04-06,Huddersfield,Leicester City,Home Loss,-3.0
+2019-04-06,Bournemouth,Burnley,Home Loss,-3.0
+2019-04-06,Newcastle Utd,Crystal Palace,Home Loss,-1.0
+2019-04-07,Everton,Arsenal,Home Win,1.0
+2019-04-08,Chelsea,West Ham,Home Win,2.0
+2019-04-12,Leicester City,Newcastle Utd,Home Loss,-1.0
+2019-04-13,Tottenham,Huddersfield,Home Win,4.0
+2019-04-13,Burnley,Cardiff City,Home Win,2.0
+2019-04-13,Fulham,Everton,Home Win,2.0
+2019-04-13,Southampton,Wolves,Home Win,2.0
+2019-04-13,Brighton,Bournemouth,Home Loss,-5.0
+2019-04-13,Manchester Utd,West Ham,Home Win,1.0
+2019-04-14,Crystal Palace,Manchester City,Home Loss,-2.0
+2019-04-14,Liverpool,Chelsea,Home Win,2.0
+2019-04-15,Watford,Arsenal,Home Loss,-1.0
+2019-04-16,Brighton,Cardiff City,Home Loss,-2.0
+2019-04-20,Manchester City,Tottenham,Home Win,1.0
+2019-04-20,West Ham,Leicester City,Draw,0.0
+2019-04-20,Bournemouth,Fulham,Home Loss,-1.0
+2019-04-20,Huddersfield,Watford,Home Loss,-1.0
+2019-04-20,Wolves,Brighton,Draw,0.0
+2019-04-20,Newcastle Utd,Southampton,Home Win,2.0
+2019-04-21,Everton,Manchester Utd,Home Win,4.0
+2019-04-21,Arsenal,Crystal Palace,Home Loss,-1.0
+2019-04-21,Cardiff City,Liverpool,Home Loss,-2.0
+2019-04-22,Chelsea,Burnley,Draw,0.0
+2019-04-23,Watford,Southampton,Draw,0.0
+2019-04-23,Tottenham,Brighton,Home Win,1.0
+2019-04-24,Wolves,Arsenal,Home Win,2.0
+2019-04-24,Manchester Utd,Manchester City,Home Loss,-2.0
+2019-04-26,Liverpool,Huddersfield,Home Win,5.0
+2019-04-27,Tottenham,West Ham,Home Loss,-1.0
+2019-04-27,Watford,Wolves,Home Loss,-1.0
+2019-04-27,Fulham,Cardiff City,Home Win,1.0
+2019-04-27,Southampton,Bournemouth,Draw,0.0
+2019-04-27,Crystal Palace,Everton,Draw,0.0
+2019-04-27,Brighton,Newcastle Utd,Draw,0.0
+2019-04-28,Leicester City,Arsenal,Home Win,3.0
+2019-04-28,Burnley,Manchester City,Home Loss,-1.0
+2019-04-28,Manchester Utd,Chelsea,Draw,0.0
+2019-05-03,Everton,Burnley,Home Win,1.0
+2019-05-04,Bournemouth,Tottenham,Home Win,1.0
+2019-05-04,Wolves,Fulham,Home Win,1.0
+2019-05-04,West Ham,Southampton,Home Win,3.0
+2019-05-04,Cardiff City,Crystal Palace,Home Loss,-2.0
+2019-05-04,Newcastle Utd,Liverpool,Home Loss,-1.0
+2019-05-05,Huddersfield,Manchester Utd,Draw,0.0
+2019-05-05,Chelsea,Watford,Home Win,3.0
+2019-05-05,Arsenal,Brighton,Draw,0.0
+2019-05-06,Manchester City,Leicester City,Home Win,1.0
+2019-05-12,Southampton,Huddersfield,Draw,0.0
+2019-05-12,Brighton,Manchester City,Home Loss,-3.0
+2019-05-12,Leicester City,Chelsea,Draw,0.0
+2019-05-12,Crystal Palace,Bournemouth,Home Win,1.0
+2019-05-12,Burnley,Arsenal,Home Loss,-2.0
+2019-05-12,Tottenham,Everton,Draw,0.0
+2019-05-12,Liverpool,Wolves,Home Win,2.0
+2019-05-12,Manchester Utd,Cardiff City,Home Loss,-2.0
+2019-05-12,Fulham,Newcastle Utd,Home Loss,-4.0
+2019-05-12,Watford,West Ham,Home Loss,-3.0
+2019-09-20,Southampton,Bournemouth,Home Loss,-2.0
+2019-09-21,Leicester City,Tottenham,Home Win,1.0
+2019-09-21,Manchester City,Watford,Home Win,8.0
+2019-09-21,Everton,Sheffield Utd,Home Loss,-1.0
+2019-09-21,Burnley,Norwich City,Home Win,2.0
+2019-09-21,Newcastle Utd,Brighton,Draw,0.0
+2019-09-22,Crystal Palace,Wolves,Home Loss,-1.0
+2019-09-22,West Ham,Manchester Utd,Home Win,2.0
+2019-09-22,Chelsea,Liverpool,Home Loss,-1.0
+2019-09-22,Arsenal,Aston Villa,Home Win,1.0
+2019-09-28,Sheffield Utd,Liverpool,Home Loss,-1.0
+2019-09-28,Chelsea,Brighton,Home Win,2.0
+2019-09-28,Tottenham,Southampton,Home Win,1.0
+2019-09-28,Aston Villa,Burnley,Draw,0.0
+2019-09-28,Crystal Palace,Norwich City,Home Win,2.0
+2019-09-28,Wolves,Watford,Home Win,1.0
+2019-09-28,Bournemouth,West Ham,Draw,0.0
+2019-09-28,Everton,Manchester City,Home Loss,-2.0
+2019-09-29,Leicester City,Newcastle Utd,Home Win,4.0
+2019-09-30,Manchester Utd,Arsenal,Draw,0.0
+2019-10-05,Brighton,Tottenham,Home Win,3.0
+2019-10-05,Watford,Sheffield Utd,Draw,0.0
+2019-10-05,Burnley,Everton,Home Win,1.0
+2019-10-05,Liverpool,Leicester City,Home Win,1.0
+2019-10-05,Norwich City,Aston Villa,Home Loss,-4.0
+2019-10-05,West Ham,Crystal Palace,Home Loss,-1.0
+2019-10-06,Manchester City,Wolves,Home Loss,-2.0
+2019-10-06,Southampton,Chelsea,Home Loss,-3.0
+2019-10-06,Arsenal,Bournemouth,Home Win,1.0
+2019-10-06,Newcastle Utd,Manchester Utd,Home Win,1.0
+2019-10-19,Everton,West Ham,Home Win,2.0
+2019-10-19,Aston Villa,Brighton,Home Win,1.0
+2019-10-19,Leicester City,Burnley,Home Win,1.0
+2019-10-19,Tottenham,Watford,Draw,0.0
+2019-10-19,Wolves,Southampton,Draw,0.0
+2019-10-19,Chelsea,Newcastle Utd,Home Win,1.0
+2019-10-19,Bournemouth,Norwich City,Draw,0.0
+2019-10-19,Crystal Palace,Manchester City,Home Loss,-2.0
+2019-10-20,Manchester Utd,Liverpool,Draw,0.0
+2019-10-21,Sheffield Utd,Arsenal,Home Win,1.0
+2019-10-25,Southampton,Leicester City,Home Loss,-9.0
+2019-10-26,Manchester City,Aston Villa,Home Win,3.0
+2019-10-26,Watford,Bournemouth,Draw,0.0
+2019-10-26,West Ham,Sheffield Utd,Draw,0.0
+2019-10-26,Brighton,Everton,Home Win,1.0
+2019-10-26,Burnley,Chelsea,Home Loss,-2.0
+2019-10-27,Newcastle Utd,Wolves,Draw,0.0
+2019-10-27,Arsenal,Crystal Palace,Draw,0.0
+2019-10-27,Liverpool,Tottenham,Home Win,1.0
+2019-10-27,Norwich City,Manchester Utd,Home Loss,-2.0
+2019-11-02,Bournemouth,Manchester Utd,Home Win,1.0
+2019-11-02,Sheffield Utd,Burnley,Home Win,3.0
+2019-11-02,Brighton,Norwich City,Home Win,2.0
+2019-11-02,Aston Villa,Liverpool,Home Loss,-1.0
+2019-11-02,Arsenal,Wolves,Draw,0.0
+2019-11-02,West Ham,Newcastle Utd,Home Loss,-1.0
+2019-11-02,Manchester City,Southampton,Home Win,1.0
+2019-11-02,Watford,Chelsea,Home Loss,-1.0
+2019-11-03,Crystal Palace,Leicester City,Home Loss,-2.0
+2019-11-03,Everton,Tottenham,Draw,0.0
+2019-11-08,Norwich City,Watford,Home Loss,-2.0
+2019-11-09,Chelsea,Crystal Palace,Home Win,2.0
+2019-11-09,Southampton,Everton,Home Loss,-1.0
+2019-11-09,Burnley,West Ham,Home Win,2.0
+2019-11-09,Newcastle Utd,Bournemouth,Home Win,1.0
+2019-11-09,Tottenham,Sheffield Utd,Draw,0.0
+2019-11-09,Leicester City,Arsenal,Home Win,2.0
+2019-11-10,Manchester Utd,Brighton,Home Win,2.0
+2019-11-10,Wolves,Aston Villa,Home Win,1.0
+2019-11-10,Liverpool,Manchester City,Home Win,2.0
+2019-11-23,West Ham,Tottenham,Home Loss,-1.0
+2019-11-23,Crystal Palace,Liverpool,Home Loss,-1.0
+2019-11-23,Arsenal,Southampton,Draw,0.0
+2019-11-23,Bournemouth,Wolves,Home Loss,-1.0
+2019-11-23,Everton,Norwich City,Home Loss,-2.0
+2019-11-23,Brighton,Leicester City,Home Loss,-2.0
+2019-11-23,Watford,Burnley,Home Loss,-3.0
+2019-11-23,Manchester City,Chelsea,Home Win,1.0
+2019-11-24,Sheffield Utd,Manchester Utd,Draw,0.0
+2019-11-25,Aston Villa,Newcastle Utd,Home Win,2.0
+2019-11-30,Newcastle Utd,Manchester City,Draw,0.0
+2019-11-30,Tottenham,Bournemouth,Home Win,1.0
+2019-11-30,Liverpool,Brighton,Home Win,1.0
+2019-11-30,Burnley,Crystal Palace,Home Loss,-2.0
+2019-11-30,Chelsea,West Ham,Home Loss,-1.0
+2019-11-30,Southampton,Watford,Home Win,1.0
+2019-12-01,Norwich City,Arsenal,Draw,0.0
+2019-12-01,Wolves,Sheffield Utd,Draw,0.0
+2019-12-01,Leicester City,Everton,Home Win,1.0
+2019-12-01,Manchester Utd,Aston Villa,Home Loss,-1.0
+2019-12-03,Crystal Palace,Bournemouth,Home Win,1.0
+2019-12-03,Burnley,Manchester City,Home Loss,-3.0
+2019-12-04,Wolves,West Ham,Home Win,2.0
+2019-12-04,Southampton,Norwich City,Home Win,1.0
+2019-12-04,Chelsea,Aston Villa,Home Win,1.0
+2019-12-04,Manchester Utd,Tottenham,Home Win,1.0
+2019-12-04,Leicester City,Watford,Home Win,2.0
+2019-12-04,Liverpool,Everton,Home Win,3.0
+2019-12-05,Sheffield Utd,Newcastle Utd,Home Loss,-2.0
+2019-12-05,Arsenal,Brighton,Home Loss,-1.0
+2019-12-07,Everton,Chelsea,Home Win,2.0
+2019-12-07,Tottenham,Burnley,Home Win,5.0
+2019-12-07,Watford,Crystal Palace,Draw,0.0
+2019-12-07,Bournemouth,Liverpool,Home Loss,-3.0
+2019-12-07,Manchester City,Manchester Utd,Home Loss,-1.0
+2019-12-08,Norwich City,Sheffield Utd,Home Loss,-1.0
+2019-12-08,Aston Villa,Leicester City,Home Loss,-3.0
+2019-12-08,Newcastle Utd,Southampton,Home Win,1.0
+2019-12-08,Brighton,Wolves,Draw,0.0
+2019-12-09,West Ham,Arsenal,Home Loss,-2.0
+2019-12-14,Liverpool,Watford,Home Win,2.0
+2019-12-14,Leicester City,Norwich City,Home Loss,-1.0
+2019-12-14,Burnley,Newcastle Utd,Home Win,1.0
+2019-12-14,Sheffield Utd,Aston Villa,Home Win,2.0
+2019-12-14,Chelsea,Bournemouth,Home Loss,-1.0
+2019-12-14,Southampton,West Ham,Home Loss,-1.0
+2019-12-15,Manchester Utd,Everton,Home Win,1.0
+2019-12-15,Wolves,Tottenham,Home Loss,-1.0
+2019-12-15,Arsenal,Manchester City,Home Loss,-3.0
+2019-12-16,Crystal Palace,Brighton,Draw,0.0
+2019-12-21,Everton,Arsenal,Draw,0.0
+2019-12-21,Norwich City,Wolves,Home Loss,-1.0
+2019-12-21,Brighton,Sheffield Utd,Home Loss,-1.0
+2019-12-21,Newcastle Utd,Crystal Palace,Home Win,1.0
+2019-12-21,Aston Villa,Southampton,Home Loss,-2.0
+2019-12-21,Bournemouth,Burnley,Home Loss,-1.0
+2019-12-21,Manchester City,Leicester City,Home Win,2.0
+2019-12-22,Watford,Manchester Utd,Home Win,2.0
+2019-12-22,Tottenham,Chelsea,Home Loss,-2.0
+2019-12-26,Tottenham,Brighton,Home Win,1.0
+2019-12-26,Aston Villa,Norwich City,Home Win,1.0
+2019-12-26,Crystal Palace,West Ham,Home Win,1.0
+2019-12-26,Bournemouth,Arsenal,Draw,0.0
+2019-12-26,Sheffield Utd,Watford,Draw,0.0
+2019-12-26,Everton,Burnley,Home Win,1.0
+2019-12-26,Chelsea,Southampton,Home Loss,-2.0
+2019-12-26,Manchester Utd,Newcastle Utd,Home Win,3.0
+2019-12-26,Leicester City,Liverpool,Home Loss,-4.0
+2019-12-27,Wolves,Manchester City,Home Win,1.0
+2019-12-28,Brighton,Bournemouth,Home Win,2.0
+2019-12-28,Watford,Aston Villa,Home Win,3.0
+2019-12-28,Newcastle Utd,Everton,Home Loss,-1.0
+2019-12-28,Southampton,Crystal Palace,Draw,0.0
+2019-12-28,West Ham,Leicester City,Home Loss,-1.0
+2019-12-28,Norwich City,Tottenham,Home Loss,-1.0
+2019-12-28,Burnley,Manchester Utd,Home Loss,-2.0
+2019-12-29,Arsenal,Chelsea,Home Loss,-1.0
+2019-12-29,Liverpool,Wolves,Home Win,1.0
+2019-12-29,Manchester City,Sheffield Utd,Home Win,2.0
+2020-01-01,Brighton,Chelsea,Draw,0.0
+2020-01-01,Burnley,Aston Villa,Home Loss,-1.0
+2020-01-01,Newcastle Utd,Leicester City,Home Loss,-3.0
+2020-01-01,Southampton,Tottenham,Home Win,1.0
+2020-01-01,Watford,Wolves,Home Win,1.0
+2020-01-01,Norwich City,Crystal Palace,Draw,0.0
+2020-01-01,West Ham,Bournemouth,Home Win,4.0
+2020-01-01,Manchester City,Everton,Home Win,1.0
+2020-01-01,Arsenal,Manchester Utd,Home Win,2.0
+2020-01-02,Liverpool,Sheffield Utd,Home Win,2.0
+2020-01-10,Sheffield Utd,West Ham,Home Win,1.0
+2020-01-11,Crystal Palace,Arsenal,Draw,0.0
+2020-01-11,Chelsea,Burnley,Home Win,3.0
+2020-01-11,Everton,Brighton,Home Win,1.0
+2020-01-11,Leicester City,Southampton,Home Loss,-1.0
+2020-01-11,Wolves,Newcastle Utd,Draw,0.0
+2020-01-11,Manchester Utd,Norwich City,Home Win,4.0
+2020-01-11,Tottenham,Liverpool,Home Loss,-1.0
+2020-01-12,Bournemouth,Watford,Home Loss,-3.0
+2020-01-12,Aston Villa,Manchester City,Home Loss,-5.0
+2020-01-18,Watford,Tottenham,Draw,0.0
+2020-01-18,Arsenal,Sheffield Utd,Draw,0.0
+2020-01-18,Norwich City,Bournemouth,Home Win,1.0
+2020-01-18,Manchester City,Crystal Palace,Home Win,1.0
+2020-01-18,Southampton,Wolves,Home Loss,-1.0
+2020-01-18,Brighton,Aston Villa,Draw,0.0
+2020-01-18,West Ham,Everton,Draw,0.0
+2020-01-18,Newcastle Utd,Chelsea,Home Win,1.0
+2020-01-19,Burnley,Leicester City,Home Win,1.0
+2020-01-19,Liverpool,Manchester Utd,Home Win,2.0
+2020-01-21,Crystal Palace,Southampton,Home Loss,-2.0
+2020-01-21,Everton,Newcastle Utd,Draw,0.0
+2020-01-21,Aston Villa,Watford,Home Win,1.0
+2020-01-21,Sheffield Utd,Manchester City,Home Loss,-1.0
+2020-01-21,Bournemouth,Brighton,Home Win,1.0
+2020-01-21,Chelsea,Arsenal,Draw,0.0
+2020-01-22,Leicester City,West Ham,Home Win,3.0
+2020-01-22,Tottenham,Norwich City,Home Win,1.0
+2020-01-22,Manchester Utd,Burnley,Home Loss,-2.0
+2020-01-23,Wolves,Liverpool,Home Loss,-1.0
+2020-01-29,West Ham,Liverpool,Home Loss,-2.0
+2020-02-01,Leicester City,Chelsea,Draw,0.0
+2020-02-01,West Ham,Brighton,Home Win,1.0
+2020-02-01,Watford,Everton,Home Loss,-1.0
+2020-02-01,Crystal Palace,Sheffield Utd,Draw,0.0
+2020-02-01,Liverpool,Southampton,Home Win,4.0
+2020-02-01,Bournemouth,Aston Villa,Home Win,1.0
+2020-02-01,Newcastle Utd,Norwich City,Draw,0.0
+2020-02-01,Manchester Utd,Wolves,Draw,0.0
+2020-02-02,Burnley,Arsenal,Draw,0.0
+2020-02-02,Tottenham,Manchester City,Home Win,2.0
+2020-02-08,Everton,Crystal Palace,Home Win,2.0
+2020-02-08,Brighton,Watford,Home Loss,-1.0
+2020-02-09,Sheffield Utd,Bournemouth,Home Win,1.0
+2020-02-14,Wolves,Leicester City,Draw,0.0
+2020-02-15,Southampton,Burnley,Home Loss,-1.0
+2020-02-15,Norwich City,Liverpool,Home Loss,-1.0
+2020-02-16,Aston Villa,Tottenham,Home Loss,-2.0
+2020-02-16,Arsenal,Newcastle Utd,Home Win,4.0
+2020-02-17,Chelsea,Manchester Utd,Home Loss,-2.0
+2020-02-19,Manchester City,West Ham,Home Win,2.0
+2020-02-22,Chelsea,Tottenham,Home Win,2.0
+2020-02-22,Crystal Palace,Newcastle Utd,Home Win,1.0
+2020-02-22,Southampton,Aston Villa,Home Win,2.0
+2020-02-22,Burnley,Bournemouth,Home Win,3.0
+2020-02-22,Sheffield Utd,Brighton,Draw,0.0
+2020-02-22,Leicester City,Manchester City,Home Loss,-1.0
+2020-02-23,Wolves,Norwich City,Home Win,3.0
+2020-02-23,Manchester Utd,Watford,Home Win,3.0
+2020-02-23,Arsenal,Everton,Home Win,1.0
+2020-02-24,Liverpool,West Ham,Home Win,1.0
+2020-02-28,Norwich City,Leicester City,Home Win,1.0
+2020-02-29,Brighton,Crystal Palace,Home Loss,-1.0
+2020-02-29,West Ham,Southampton,Home Win,2.0
+2020-02-29,Bournemouth,Chelsea,Draw,0.0
+2020-02-29,Newcastle Utd,Burnley,Draw,0.0
+2020-02-29,Watford,Liverpool,Home Win,3.0
+2020-03-01,Tottenham,Wolves,Home Loss,-1.0
+2020-03-01,Everton,Manchester Utd,Draw,0.0
+2020-03-07,Liverpool,Bournemouth,Home Win,1.0
+2020-03-07,Wolves,Brighton,Draw,0.0
+2020-03-07,Crystal Palace,Watford,Home Win,1.0
+2020-03-07,Southampton,Newcastle Utd,Home Loss,-1.0
+2020-03-07,Arsenal,West Ham,Home Win,1.0
+2020-03-07,Sheffield Utd,Norwich City,Home Win,1.0
+2020-03-07,Burnley,Tottenham,Draw,0.0
+2020-03-08,Chelsea,Everton,Home Win,4.0
+2020-03-08,Manchester Utd,Manchester City,Home Win,2.0
+2020-03-09,Leicester City,Aston Villa,Home Win,4.0
+2020-07-11,Norwich City,West Ham,Home Loss,-4.0
+2020-07-11,Watford,Newcastle Utd,Home Win,1.0
+2020-07-11,Liverpool,Burnley,Draw,0.0
+2020-07-11,Sheffield Utd,Chelsea,Home Win,3.0
+2020-07-11,Brighton,Manchester City,Home Loss,-5.0
+2020-07-12,Wolves,Everton,Home Win,3.0
+2020-07-12,Aston Villa,Crystal Palace,Home Win,2.0
+2020-07-12,Tottenham,Arsenal,Home Win,1.0
+2020-07-12,Bournemouth,Leicester City,Home Win,2.0
+2020-07-13,Manchester Utd,Southampton,Draw,0.0
+2020-07-14,Chelsea,Norwich City,Home Win,1.0
+2020-07-15,Newcastle Utd,Tottenham,Home Loss,-2.0
+2020-07-15,Burnley,Wolves,Draw,0.0
+2020-07-15,Manchester City,Bournemouth,Home Win,1.0
+2020-07-15,Arsenal,Liverpool,Home Win,1.0
+2020-07-16,Leicester City,Sheffield Utd,Home Win,2.0
+2020-07-16,Everton,Aston Villa,Draw,0.0
+2020-07-16,Crystal Palace,Manchester Utd,Home Loss,-2.0
+2020-07-16,Southampton,Brighton,Draw,0.0
+2020-07-17,West Ham,Watford,Home Win,2.0
+2020-07-18,Norwich City,Burnley,Home Loss,-1.0
+2020-07-19,Bournemouth,Southampton,Home Loss,-2.0
+2020-07-19,Tottenham,Leicester City,Home Win,2.0
+2020-07-20,Brighton,Newcastle Utd,Draw,0.0
+2020-07-20,Sheffield Utd,Everton,Home Loss,-1.0
+2020-07-20,Wolves,Crystal Palace,Home Win,2.0
+2020-07-21,Watford,Manchester City,Home Loss,-4.0
+2020-07-21,Aston Villa,Arsenal,Home Win,1.0
+2020-07-22,Manchester Utd,West Ham,Draw,0.0
+2020-07-22,Liverpool,Chelsea,Home Win,2.0
+2020-07-26,Everton,Bournemouth,Home Loss,-2.0
+2020-07-26,Leicester City,Manchester Utd,Home Loss,-2.0
+2020-07-26,Southampton,Sheffield Utd,Home Win,2.0
+2020-07-26,Arsenal,Watford,Home Win,1.0
+2020-07-26,Crystal Palace,Tottenham,Draw,0.0
+2020-07-26,Manchester City,Norwich City,Home Win,5.0
+2020-07-26,Chelsea,Wolves,Home Win,2.0
+2020-07-26,West Ham,Aston Villa,Draw,0.0
+2020-07-26,Newcastle Utd,Liverpool,Home Loss,-2.0
+2020-07-26,Burnley,Brighton,Home Loss,-1.0
+2020-09-12,Crystal Palace,Southampton,Home Win,1.0
+2020-09-12,West Ham,Newcastle Utd,Home Loss,-2.0
+2020-09-13,Tottenham,Everton,Home Loss,-1.0
+2020-09-14,Sheffield Utd,Wolves,Home Loss,-2.0
+2020-09-14,Brighton,Chelsea,Home Loss,-2.0
+2020-09-19,Manchester Utd,Crystal Palace,Home Loss,-2.0
+2020-09-19,Arsenal,West Ham,Home Win,1.0
+2020-09-20,Southampton,Tottenham,Home Loss,-3.0
+2020-09-20,Newcastle Utd,Brighton,Home Loss,-3.0
+2020-09-20,Chelsea,Liverpool,Home Loss,-2.0
+2020-09-20,Leicester City,Burnley,Home Win,1.0
+2020-09-21,Aston Villa,Sheffield Utd,Home Win,1.0
+2020-09-21,Wolves,Manchester City,Home Loss,-2.0
+2020-09-26,Brighton,Manchester Utd,Draw,0.0
+2020-09-26,Crystal Palace,Everton,Home Loss,-1.0
+2020-09-26,Burnley,Southampton,Home Loss,-1.0
+2020-09-27,Tottenham,Newcastle Utd,Draw,0.0
+2020-09-27,Manchester City,Leicester City,Home Loss,-3.0
+2020-09-27,West Ham,Wolves,Home Win,3.0
+2020-09-28,Liverpool,Arsenal,Home Win,2.0
+2020-10-03,Chelsea,Crystal Palace,Home Win,4.0
+2020-10-03,Everton,Brighton,Home Win,2.0
+2020-10-03,Newcastle Utd,Burnley,Home Win,2.0
+2020-10-04,Leicester City,West Ham,Home Loss,-3.0
+2020-10-04,Arsenal,Sheffield Utd,Home Win,1.0
+2020-10-04,Manchester Utd,Tottenham,Home Loss,-5.0
+2020-10-04,Aston Villa,Liverpool,Home Win,5.0
+2020-10-17,Everton,Liverpool,Draw,0.0
+2020-10-17,Chelsea,Southampton,Draw,0.0
+2020-10-17,Manchester City,Arsenal,Home Win,1.0
+2020-10-17,Newcastle Utd,Manchester Utd,Home Loss,-4.0
+2020-10-18,Crystal Palace,Brighton,Draw,0.0
+2020-10-18,Tottenham,West Ham,Home Win,1.0
+2020-10-18,Leicester City,Aston Villa,Home Loss,-1.0
+2020-10-23,Aston Villa,Leeds United,Home Loss,-3.0
+2020-10-24,Fulham,Crystal Palace,Home Loss,-1.0
+2020-10-24,Liverpool,Sheffield Utd,Home Win,1.0
+2020-10-25,Southampton,Everton,Home Win,2.0
+2020-10-25,Wolves,Newcastle Utd,Draw,0.0
+2020-10-25,Arsenal,Leicester City,Home Loss,-1.0
+2020-10-26,Brighton,West Brom,Home Loss,-1.0
+2020-10-30,Wolves,Crystal Palace,Home Win,2.0
+2020-10-31,Sheffield Utd,Manchester City,Home Loss,-1.0
+2020-10-31,Burnley,Chelsea,Home Loss,-3.0
+2020-10-31,Liverpool,West Ham,Home Win,1.0
+2020-11-01,Aston Villa,Southampton,Home Loss,-1.0
+2020-11-01,Newcastle Utd,Everton,Home Win,1.0
+2020-11-01,Manchester Utd,Arsenal,Home Loss,-1.0
+2020-11-01,Tottenham,Brighton,Home Win,1.0
+2020-11-02,Fulham,West Brom,Home Win,2.0
+2020-11-02,Leeds United,Leicester City,Home Loss,-3.0
+2020-11-06,Brighton,Burnley,Draw,0.0
+2020-11-06,Southampton,Newcastle Utd,Home Win,2.0
+2020-11-07,Everton,Manchester Utd,Home Loss,-2.0
+2020-11-07,Crystal Palace,Leeds United,Home Win,2.0
+2020-11-07,Chelsea,Sheffield Utd,Home Win,3.0
+2020-11-07,West Ham,Fulham,Home Win,1.0
+2020-11-08,West Brom,Tottenham,Home Loss,-1.0
+2020-11-08,Leicester City,Wolves,Home Win,1.0
+2020-11-08,Manchester City,Liverpool,Draw,0.0
+2020-11-08,Arsenal,Aston Villa,Home Loss,-2.0
+2020-11-21,Newcastle Utd,Chelsea,Home Loss,-1.0
+2020-11-21,Aston Villa,Brighton,Home Loss,-1.0
+2020-11-21,Tottenham,Manchester City,Home Win,2.0
+2020-11-21,Manchester Utd,West Brom,Home Win,1.0
+2020-11-22,Fulham,Everton,Home Loss,-1.0
+2020-11-22,Sheffield Utd,West Ham,Home Loss,-1.0
+2020-11-22,Leeds United,Arsenal,Draw,0.0
+2020-11-22,Liverpool,Leicester City,Home Win,2.0
+2020-11-23,Burnley,Crystal Palace,Home Win,1.0
+2020-11-23,Wolves,Southampton,Draw,0.0
+2020-11-27,Crystal Palace,Newcastle Utd,Home Loss,-2.0
+2020-11-28,Brighton,Liverpool,Draw,0.0
+2020-11-28,Manchester City,Burnley,Home Win,5.0
+2020-11-28,Everton,Leeds United,Home Loss,-1.0
+2020-11-28,West Brom,Sheffield Utd,Home Win,1.0
+2020-11-29,Southampton,Manchester Utd,Home Loss,-1.0
+2020-11-29,Chelsea,Tottenham,Draw,0.0
+2020-11-29,Arsenal,Wolves,Home Loss,-1.0
+2020-11-30,Leicester City,Fulham,Home Loss,-1.0
+2020-11-30,West Ham,Aston Villa,Home Win,1.0
+2020-12-05,Burnley,Everton,Draw,0.0
+2020-12-05,Manchester City,Fulham,Home Win,2.0
+2020-12-05,West Ham,Manchester Utd,Home Loss,-2.0
+2020-12-05,Chelsea,Leeds United,Home Win,2.0
+2020-12-06,West Brom,Crystal Palace,Home Loss,-3.0
+2020-12-06,Sheffield Utd,Leicester City,Home Loss,-1.0
+2020-12-06,Tottenham,Arsenal,Home Win,2.0
+2020-12-06,Liverpool,Wolves,Home Win,3.0
+2020-12-07,Brighton,Southampton,Home Loss,-1.0
+2020-12-11,Leeds United,West Ham,Home Loss,-1.0
+2020-12-12,Wolves,Aston Villa,Home Loss,-1.0
+2020-12-12,Newcastle Utd,West Brom,Home Win,1.0
+2020-12-12,Manchester Utd,Manchester City,Draw,0.0
+2020-12-12,Everton,Chelsea,Home Win,1.0
+2020-12-13,Southampton,Sheffield Utd,Home Win,3.0
+2020-12-13,Crystal Palace,Tottenham,Draw,0.0
+2020-12-13,Fulham,Liverpool,Draw,0.0
+2020-12-13,Leicester City,Brighton,Home Win,3.0
+2020-12-13,Arsenal,Burnley,Draw,0.0
+2020-12-15,Wolves,Chelsea,Home Win,1.0
+2020-12-15,Manchester City,West Brom,Home Win,1.0
+2020-12-16,Arsenal,Southampton,Draw,0.0
+2020-12-16,Leicester City,Everton,Home Loss,-2.0
+2020-12-16,Leeds United,Newcastle Utd,Home Win,3.0
+2020-12-16,Liverpool,Tottenham,Home Win,1.0
+2020-12-16,West Ham,Crystal Palace,Draw,0.0
+2020-12-16,Fulham,Brighton,Draw,0.0
+2020-12-17,Aston Villa,Burnley,Draw,0.0
+2020-12-17,Sheffield Utd,Manchester Utd,Home Loss,-1.0
+2020-12-19,Crystal Palace,Liverpool,Home Loss,-7.0
+2020-12-19,Southampton,Manchester City,Home Loss,-1.0
+2020-12-19,Everton,Arsenal,Draw,0.0
+2020-12-19,Newcastle Utd,Fulham,Home Win,1.0
+2020-12-20,Brighton,Sheffield Utd,Draw,0.0
+2020-12-20,Tottenham,Leicester City,Home Loss,-1.0
+2020-12-20,Manchester Utd,Leeds United,Home Win,4.0
+2020-12-20,West Brom,Aston Villa,Home Loss,-3.0
+2020-12-21,Burnley,Wolves,Home Win,1.0
+2020-12-21,Chelsea,West Ham,Home Win,3.0
+2020-12-26,Leicester City,Manchester Utd,Home Loss,-1.0
+2020-12-26,Aston Villa,Crystal Palace,Home Win,3.0
+2020-12-26,Fulham,Southampton,Draw,0.0
+2020-12-26,Arsenal,Chelsea,Home Win,2.0
+2020-12-26,Sheffield Utd,Everton,Home Loss,-1.0
+2020-12-26,Manchester City,Newcastle Utd,Home Win,2.0
+2020-12-27,Leeds United,Burnley,Home Win,1.0
+2020-12-27,West Ham,Brighton,Draw,0.0
+2020-12-27,Liverpool,West Brom,Draw,0.0
+2020-12-27,Wolves,Tottenham,Draw,0.0
+2020-12-28,Crystal Palace,Leicester City,Draw,0.0
+2020-12-28,Chelsea,Aston Villa,Draw,0.0
+2020-12-29,West Brom,Leeds United,Home Loss,-4.0
+2020-12-29,Southampton,West Ham,Draw,0.0
+2020-12-29,Burnley,Sheffield Utd,Home Win,1.0
+2020-12-29,Brighton,Arsenal,Home Loss,-1.0
+2020-12-29,Manchester Utd,Wolves,Home Win,1.0
+2020-12-30,Newcastle Utd,Liverpool,Draw,0.0
+2021-01-01,Everton,West Ham,Home Loss,-1.0
+2021-01-01,Manchester Utd,Aston Villa,Home Win,1.0
+2021-01-02,Tottenham,Leeds United,Home Win,3.0
+2021-01-02,Crystal Palace,Sheffield Utd,Home Win,2.0
+2021-01-02,Brighton,Wolves,Home Win,1.0
+2021-01-02,West Brom,Arsenal,Home Loss,-4.0
+2021-01-03,Newcastle Utd,Leicester City,Home Loss,-1.0
+2021-01-03,Chelsea,Manchester City,Home Loss,-2.0
+2021-01-04,Southampton,Liverpool,Home Win,1.0
+2021-01-12,Sheffield Utd,Newcastle Utd,Home Win,1.0
+2021-01-12,Burnley,Manchester Utd,Home Loss,-1.0
+2021-01-12,Wolves,Everton,Home Loss,-1.0
+2021-01-13,Manchester City,Brighton,Home Win,1.0
+2021-01-13,Tottenham,Fulham,Draw,0.0
+2021-01-14,Arsenal,Crystal Palace,Draw,0.0
+2021-01-16,Wolves,West Brom,Home Loss,-1.0
+2021-01-16,West Ham,Burnley,Home Win,1.0
+2021-01-16,Leeds United,Brighton,Home Loss,-1.0
+2021-01-16,Fulham,Chelsea,Home Loss,-1.0
+2021-01-16,Leicester City,Southampton,Home Win,2.0
+2021-01-17,Sheffield Utd,Tottenham,Home Loss,-2.0
+2021-01-17,Liverpool,Manchester Utd,Draw,0.0
+2021-01-17,Manchester City,Crystal Palace,Home Win,4.0
+2021-01-18,Arsenal,Newcastle Utd,Home Win,3.0
+2021-01-19,West Ham,West Brom,Home Win,1.0
+2021-01-19,Leicester City,Chelsea,Home Win,2.0
+2021-01-20,Manchester City,Aston Villa,Home Win,2.0
+2021-01-20,Fulham,Manchester Utd,Home Loss,-1.0
+2021-01-21,Liverpool,Burnley,Home Loss,-1.0
+2021-01-23,Aston Villa,Newcastle Utd,Home Win,2.0
+2021-01-26,Newcastle Utd,Leeds United,Home Loss,-1.0
+2021-01-26,Crystal Palace,West Ham,Home Loss,-1.0
+2021-01-26,West Brom,Manchester City,Home Loss,-5.0
+2021-01-26,Southampton,Arsenal,Home Loss,-2.0
+2021-01-27,Chelsea,Wolves,Draw,0.0
+2021-01-27,Burnley,Aston Villa,Home Win,1.0
+2021-01-27,Brighton,Fulham,Draw,0.0
+2021-01-27,Everton,Leicester City,Draw,0.0
+2021-01-27,Manchester Utd,Sheffield Utd,Home Loss,-1.0
+2021-01-28,Tottenham,Liverpool,Home Loss,-2.0
+2021-01-30,Everton,Newcastle Utd,Home Loss,-2.0
+2021-01-30,Crystal Palace,Wolves,Home Win,1.0
+2021-01-30,Manchester City,Sheffield Utd,Home Win,1.0
+2021-01-30,West Brom,Fulham,Draw,0.0
+2021-01-30,Arsenal,Manchester Utd,Draw,0.0
+2021-01-30,Southampton,Aston Villa,Home Loss,-1.0
+2021-01-31,Chelsea,Burnley,Home Win,2.0
+2021-01-31,Leicester City,Leeds United,Home Loss,-2.0
+2021-01-31,West Ham,Liverpool,Home Loss,-2.0
+2021-01-31,Brighton,Tottenham,Home Win,1.0
+2021-02-02,Sheffield Utd,West Brom,Home Win,1.0
+2021-02-02,Wolves,Arsenal,Home Win,1.0
+2021-02-02,Manchester Utd,Southampton,Home Win,8.0
+2021-02-02,Newcastle Utd,Crystal Palace,Home Loss,-1.0
+2021-02-03,Burnley,Manchester City,Home Loss,-2.0
+2021-02-03,Fulham,Leicester City,Home Loss,-2.0
+2021-02-03,Leeds United,Everton,Home Loss,-1.0
+2021-02-03,Liverpool,Brighton,Home Loss,-1.0
+2021-02-03,Aston Villa,West Ham,Home Loss,-2.0
+2021-02-04,Tottenham,Chelsea,Home Loss,-1.0
+2021-02-06,Aston Villa,Arsenal,Home Win,1.0
+2021-02-06,Burnley,Brighton,Draw,0.0
+2021-02-06,Newcastle Utd,Southampton,Home Win,1.0
+2021-02-06,Fulham,West Ham,Draw,0.0
+2021-02-06,Manchester Utd,Everton,Draw,0.0
+2021-02-07,Tottenham,West Brom,Home Win,2.0
+2021-02-07,Wolves,Leicester City,Draw,0.0
+2021-02-07,Liverpool,Manchester City,Home Loss,-3.0
+2021-02-07,Sheffield Utd,Chelsea,Home Loss,-2.0
+2021-02-08,Leeds United,Crystal Palace,Home Win,2.0
+2021-02-13,Leicester City,Liverpool,Home Win,2.0
+2021-02-13,Crystal Palace,Burnley,Home Loss,-3.0
+2021-02-13,Manchester City,Tottenham,Home Win,3.0
+2021-02-13,Brighton,Aston Villa,Draw,0.0
+2021-02-14,Southampton,Wolves,Home Loss,-1.0
+2021-02-14,West Brom,Manchester Utd,Draw,0.0
+2021-02-14,Arsenal,Leeds United,Home Win,2.0
+2021-02-14,Everton,Fulham,Home Loss,-2.0
+2021-02-15,West Ham,Sheffield Utd,Home Win,3.0
+2021-02-15,Chelsea,Newcastle Utd,Home Win,2.0
+2021-02-17,Burnley,Fulham,Draw,0.0
+2021-02-17,Everton,Manchester City,Home Loss,-2.0
+2021-02-19,Wolves,Leeds United,Draw,0.0
+2021-02-20,Southampton,Chelsea,Draw,0.0
+2021-02-20,Burnley,West Brom,Draw,0.0
+2021-02-20,Liverpool,Everton,Home Loss,-2.0
+2021-02-20,Fulham,Sheffield Utd,Home Win,1.0
+2021-02-21,West Ham,Tottenham,Home Win,1.0
+2021-02-21,Aston Villa,Leicester City,Home Loss,-1.0
+2021-02-21,Arsenal,Manchester City,Home Loss,-1.0
+2021-02-21,Manchester Utd,Newcastle Utd,Home Win,2.0
+2021-02-22,Brighton,Crystal Palace,Home Loss,-1.0
+2021-02-23,Leeds United,Southampton,Home Win,3.0
+2021-02-27,Manchester City,West Ham,Home Win,1.0
+2021-02-27,West Brom,Brighton,Home Win,1.0
+2021-02-27,Leeds United,Aston Villa,Home Loss,-1.0
+2021-02-27,Newcastle Utd,Wolves,Draw,0.0
+2021-02-28,Crystal Palace,Fulham,Draw,0.0
+2021-02-28,Leicester City,Arsenal,Home Loss,-2.0
+2021-02-28,Tottenham,Burnley,Home Win,4.0
+2021-02-28,Chelsea,Manchester Utd,Draw,0.0
+2021-02-28,Sheffield Utd,Liverpool,Home Loss,-1.0
+2021-03-01,Everton,Southampton,Home Win,1.0
+2021-03-02,Manchester City,Wolves,Home Win,2.0
+2021-03-03,Sheffield Utd,Aston Villa,Home Win,1.0
+2021-03-03,Burnley,Leicester City,Draw,0.0
+2021-03-03,Crystal Palace,Manchester Utd,Draw,0.0
+2021-03-04,West Brom,Everton,Home Loss,-1.0
+2021-03-04,Fulham,Tottenham,Draw,0.0
+2021-03-04,Liverpool,Chelsea,Home Loss,-1.0
+2021-03-06,Burnley,Arsenal,Draw,0.0
+2021-03-06,Sheffield Utd,Southampton,Home Loss,-2.0
+2021-03-06,Aston Villa,Wolves,Draw,0.0
+2021-03-06,Brighton,Leicester City,Home Loss,-1.0
+2021-03-07,West Brom,Newcastle Utd,Draw,0.0
+2021-03-07,Liverpool,Fulham,Home Loss,-1.0
+2021-03-07,Manchester City,Manchester Utd,Home Loss,-2.0
+2021-03-07,Tottenham,Crystal Palace,Home Win,3.0
+2021-03-08,Chelsea,Everton,Home Win,1.0
+2021-03-08,West Ham,Leeds United,Home Win,2.0
+2021-03-10,Manchester City,Southampton,Home Win,3.0
+2021-03-12,Newcastle Utd,Aston Villa,Home Win,1.0
+2021-03-13,Leeds United,Chelsea,Draw,0.0
+2021-03-13,Crystal Palace,West Brom,Home Win,1.0
+2021-03-13,Everton,Burnley,Home Loss,-1.0
+2021-03-13,Fulham,Manchester City,Home Loss,-3.0
+2021-03-14,Southampton,Brighton,Home Loss,-1.0
+2021-03-14,Leicester City,Sheffield Utd,Home Win,4.0
+2021-03-14,Arsenal,Tottenham,Home Win,1.0
+2021-03-14,Manchester Utd,West Ham,Draw,0.0
+2021-03-15,Wolves,Liverpool,Home Loss,-1.0
+2021-03-19,Fulham,Leeds United,Home Loss,-1.0
+2021-03-20,Brighton,Newcastle Utd,Home Win,3.0
+2021-03-21,West Ham,Arsenal,Home Win,2.0
+2021-03-21,Aston Villa,Tottenham,Home Loss,-2.0
+2021-04-03,Chelsea,West Brom,Home Loss,-3.0
+2021-04-03,Leeds United,Sheffield Utd,Draw,0.0
+2021-04-03,Leicester City,Manchester City,Home Loss,-2.0
+2021-04-03,Arsenal,Liverpool,Home Loss,-3.0
+2021-04-04,Southampton,Burnley,Home Win,1.0
+2021-04-04,Newcastle Utd,Tottenham,Draw,0.0
+2021-04-04,Aston Villa,Fulham,Home Win,2.0
+2021-04-04,Manchester Utd,Brighton,Home Win,1.0
+2021-04-05,Everton,Crystal Palace,Draw,0.0
+2021-04-05,Wolves,West Ham,Home Loss,-1.0
+2021-04-09,Fulham,Wolves,Home Loss,-1.0
+2021-04-10,Manchester City,Leeds United,Home Loss,-1.0
+2021-04-10,Liverpool,Aston Villa,Home Win,1.0
+2021-04-10,Crystal Palace,Chelsea,Home Loss,-3.0
+2021-04-11,Burnley,Newcastle Utd,Home Loss,-1.0
+2021-04-11,West Ham,Leicester City,Home Win,1.0
+2021-04-11,Tottenham,Manchester Utd,Home Loss,-2.0
+2021-04-11,Sheffield Utd,Arsenal,Home Loss,-3.0
+2021-04-12,West Brom,Southampton,Home Win,3.0
+2021-04-12,Brighton,Everton,Draw,0.0
+2021-04-16,Everton,Tottenham,Draw,0.0
+2021-04-17,Newcastle Utd,West Ham,Draw,0.0
+2021-04-17,Wolves,Sheffield Utd,Home Win,1.0
+2021-04-18,Arsenal,Fulham,Draw,0.0
+2021-04-18,Manchester Utd,Burnley,Home Win,2.0
+2021-04-19,Leeds United,Liverpool,Draw,0.0
+2021-04-20,Chelsea,Brighton,Draw,0.0
+2021-04-21,Tottenham,Southampton,Home Win,1.0
+2021-04-21,Aston Villa,Manchester City,Home Loss,-1.0
+2021-04-22,Leicester City,West Brom,Home Win,3.0
+2021-04-23,Arsenal,Everton,Draw,0.0
+2021-04-24,Liverpool,Newcastle Utd,Draw,0.0
+2021-04-24,West Ham,Chelsea,Home Loss,-1.0
+2021-04-24,Sheffield Utd,Brighton,Home Win,1.0
+2021-04-25,Wolves,Burnley,Home Loss,-4.0
+2021-04-25,Leeds United,Manchester Utd,Draw,0.0
+2021-04-25,Aston Villa,West Brom,Home Win,1.0
+2021-04-26,Leicester City,Crystal Palace,Home Win,1.0
+2021-04-30,Southampton,Leicester City,Draw,0.0
+2021-05-01,Crystal Palace,Manchester City,Home Loss,-2.0
+2021-05-01,Brighton,Leeds United,Home Win,2.0
+2021-05-01,Chelsea,Fulham,Home Win,2.0
+2021-05-01,Everton,Aston Villa,Home Loss,-1.0
+2021-05-02,Newcastle Utd,Arsenal,Home Loss,-2.0
+2021-05-02,Tottenham,Sheffield Utd,Home Win,4.0
+2021-05-03,West Brom,Wolves,Draw,0.0
+2021-05-03,Burnley,West Ham,Home Loss,-1.0
+2021-05-07,Leicester City,Newcastle Utd,Home Loss,-2.0
+2021-05-08,Leeds United,Tottenham,Home Win,2.0
+2021-05-08,Sheffield Utd,Crystal Palace,Home Loss,-2.0
+2021-05-08,Manchester City,Chelsea,Home Loss,-1.0
+2021-05-08,Liverpool,Southampton,Home Win,2.0
+2021-05-09,Wolves,Brighton,Home Win,1.0
+2021-05-09,Aston Villa,Manchester Utd,Home Loss,-2.0
+2021-05-09,West Ham,Everton,Home Loss,-1.0
+2021-05-09,Arsenal,West Brom,Home Win,2.0
+2021-05-10,Fulham,Burnley,Home Loss,-2.0
+2021-05-11,Manchester Utd,Leicester City,Home Loss,-1.0
+2021-05-11,Southampton,Crystal Palace,Home Win,2.0
+2021-05-12,Chelsea,Arsenal,Home Loss,-1.0
+2021-05-13,Aston Villa,Everton,Draw,0.0
+2021-05-13,Manchester Utd,Liverpool,Home Loss,-2.0
+2021-05-14,Newcastle Utd,Manchester City,Home Loss,-1.0
+2021-05-15,Burnley,Leeds United,Home Loss,-4.0
+2021-05-15,Southampton,Fulham,Home Win,2.0
+2021-05-15,Brighton,West Ham,Draw,0.0
+2021-05-16,Crystal Palace,Aston Villa,Home Win,1.0
+2021-05-16,Tottenham,Wolves,Home Win,2.0
+2021-05-16,West Brom,Liverpool,Home Loss,-1.0
+2021-05-16,Everton,Sheffield Utd,Home Loss,-1.0
+2021-05-18,Manchester Utd,Fulham,Draw,0.0
+2021-05-18,Southampton,Leeds United,Home Loss,-2.0
+2021-05-18,Brighton,Manchester City,Home Win,1.0
+2021-05-18,Chelsea,Leicester City,Home Win,1.0
+2021-05-19,Newcastle Utd,Sheffield Utd,Home Win,1.0
+2021-05-19,Tottenham,Aston Villa,Draw,0.0
+2021-05-19,Everton,Wolves,Home Win,1.0
+2021-05-19,Crystal Palace,Arsenal,Home Loss,-2.0
+2021-05-19,Burnley,Liverpool,Home Loss,-3.0
+2021-05-19,West Brom,West Ham,Home Loss,-2.0
+2021-05-23,Aston Villa,Chelsea,Home Win,1.0
+2021-05-23,Leicester City,Tottenham,Home Loss,-1.0
+2021-05-23,Manchester City,Everton,Home Win,5.0
+2021-05-23,Sheffield Utd,Burnley,Home Win,1.0
+2021-05-23,Wolves,Manchester Utd,Home Loss,-1.0
+2021-05-23,West Ham,Southampton,Home Win,3.0
+2021-05-23,Leeds United,West Brom,Home Win,2.0
+2021-05-23,Arsenal,Brighton,Home Win,2.0
+2021-05-23,Liverpool,Crystal Palace,Home Win,2.0
+2021-05-23,Fulham,Newcastle Utd,Home Loss,-2.0
